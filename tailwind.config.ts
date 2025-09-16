@@ -14,6 +14,7 @@ const config: Config = {
         baskervville: ["var(--font-baskervville)", "serif"],
         acumin: ["var(--font-acumin)", "sans-serif"],
         lumios: ["var(--font-lumios)", "cursive"],
+        sansation: ["Sansation", "sans-serif"],
       },
       fontSize: {
         h1: ["48px", { lineHeight: "1.2", fontWeight: "700" }], // Bold
@@ -34,7 +35,7 @@ const config: Config = {
         },
       },
       colors: {
-        "prestige-yellow": "#FCD34D",
+        "prestige-yellow": "#FFCE07",
         "prestige-black": "#000000",
         "prestige-gray": "#6B7280",
       },

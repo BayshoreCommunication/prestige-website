@@ -28,9 +28,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      
+
     >
-      <body className="font-acumin">
+      <body className="font-sansation">
         <Providers>
           <Navbar />
           <main className="">{children}</main>

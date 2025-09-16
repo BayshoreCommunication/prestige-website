@@ -41,7 +41,7 @@ export default function WeCanHelp() {
         <div className="max-w-[1640px] mx-auto px-8 md:py-16 py-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-black">
-              How We Can <span className="text-yellow-500">Help</span> You
+              How We Can <span className="text-prestige-yellow">Help</span> You
             </h2>
             <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
               The physicians and staff at prestige understand that being injured in an auto accident can be extremely

@@ -38,7 +38,7 @@ export default function Blogs() {
       {/* Section Title */}
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white">
-          Latest <span className="text-yellow-400">Blogs</span>
+                Latest <span className="text-prestige-yellow">Blogs</span>
         </h2>
         <p className="text-gray-300 mt-3 max-w-2xl mx-auto">
           The physicians and staff at prestige understand that being injured in
@@ -70,7 +70,7 @@ export default function Blogs() {
               <p className="text-gray-400 text-sm mt-2">{blog.description}</p>
               <a
                 href={blog.link}
-                className="text-yellow-400 font-semibold text-sm mt-3 inline-block hover:underline"
+                    className="text-prestige-yellow font-semibold text-sm mt-3 inline-block hover:underline"
               >
                 Read More
               </a>

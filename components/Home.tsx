@@ -44,8 +44,8 @@ export default function HomeSection() {
             </div>
 
             {/* Appointment Banner */}
-            <div className="absolute left-1/2 bottom-[-60px] transform -translate-x-1/2 w-[90%] lg:w-[80%]">
-                <div className="bg-yellow-400 px-6 py-3 rounded-t-xl font-bold text-lg flex items-center">
+            <div className="absolute left-1/2 bottom-[-60px] transform -translate-x-1/2 w-[90%] sm:w-[80%]">
+                <div className="bg-prestige-yellow text-black px-6 py-3 rounded-t-xl font-bold text-lg flex items-center">
                     <span className="mr-3"><Image src="/images/home/icon.png" alt="calendar" width={20} height={20} /></span> Book an appointment today
                 </div>
 
@@ -71,7 +71,7 @@ export default function HomeSection() {
                         <option>Consultation</option>
                         <option>Follow-up</option>
                     </select>
-                    <button className="bg-yellow-400 text-sm text-black font-semibold px-6 py-2 rounded hover:bg-yellow-500 transition">
+                    <button className="bg-prestige-yellow text-sm text-black font-semibold px-6 py-2 rounded hover:bg-yellow-500 transition">
                         Book Now
                     </button>
                 </div>

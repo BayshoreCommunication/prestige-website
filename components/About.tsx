@@ -42,7 +42,7 @@ export default function About() {
                     {/* Right - Text Content */}
                     <div className="text-white">
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                            About <span className="text-yellow-400">Prestige</span>
+                            About <span className="text-prestige-yellow">Prestige</span>
                         </h2>
                         <p className="text-gray-300 mb-4">
                             The physicians and staff at prestige understand that being injured in
@@ -61,7 +61,7 @@ export default function About() {
                             the Tampa Bay area.
                         </p>
 
-                        <button className="bg-yellow-400 text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition">
+                        <button className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition">
                             Discover More
                         </button>
                     </div>

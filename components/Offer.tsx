@@ -39,7 +39,7 @@ export default function Offer() {
             <section className="max-w-[1640px] mx-auto px-8 md:py-16 py-8">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-white">
-                        Our <span className="text-yellow-400">Key</span> Offerings
+                        Our <span className="text-prestige-yellow">Key</span> Offerings
                     </h2>
                     <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
                         The physicians and staff at prestige understand that being injured in an auto accident can be extremely

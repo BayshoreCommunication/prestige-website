@@ -38,9 +38,9 @@ export default function Stats() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
           <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-            <FaCalendarAlt className="text-yellow-400 text-4xl" />
+            <FaCalendarAlt className="text-prestige-yellow text-4xl" />
             <div>
-              <h3 className="text-yellow-400 text-2xl font-bold">{years}+</h3>
+              <h3 className="text-prestige-yellow text-2xl font-bold">{years}+</h3>
               <p className="text-gray-300 text-sm">
                 Combined Excellency of Years
               </p>
@@ -49,27 +49,27 @@ export default function Stats() {
 
           {/* Card 2 */}
           <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-            <FaBriefcaseMedical className="text-yellow-400 text-4xl" />
+            <FaBriefcaseMedical className="text-prestige-yellow text-4xl" />
             <div>
-              <h3 className="text-yellow-400 text-2xl font-bold">{satisfaction}%</h3>
+              <h3 className="text-prestige-yellow text-2xl font-bold">{satisfaction}%</h3>
               <p className="text-gray-300 text-sm">Satisfaction</p>
             </div>
           </div>
 
           {/* Card 3 */}
           <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-            <MdMedicalServices className="text-yellow-400 text-4xl" />
+            <MdMedicalServices className="text-prestige-yellow text-4xl" />
             <div>
-              <h3 className="text-yellow-400 text-2xl font-bold">{technologies}+</h3>
+              <h3 className="text-prestige-yellow text-2xl font-bold">{technologies}+</h3>
               <p className="text-gray-300 text-sm">Technologies Available</p>
             </div>
           </div>
 
           {/* Card 4 */}
           <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-            <FaHeadset className="text-yellow-400 text-4xl" />
+            <FaHeadset className="text-prestige-yellow text-4xl" />
             <div>
-              <h3 className="text-yellow-400 text-2xl font-bold">{availability}/7</h3>
+              <h3 className="text-prestige-yellow text-2xl font-bold">{availability}/7</h3>
               <p className="text-gray-300 text-sm">Availability</p>
             </div>
           </div>

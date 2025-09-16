@@ -34,16 +34,16 @@ export default function Footer() {
 
                     {/* Social Icons */}
                     <div className="flex space-x-4 mt-5 text-xl">
-                        <a href="#" className="hover:text-yellow-400">
+                        <a href="#" className="hover:text-prestige-yellow">
                             <FaInstagram />
                         </a>
-                        <a href="#" className="hover:text-yellow-400">
+                        <a href="#" className="hover:text-prestige-yellow">
                             <FaYoutube />
                         </a>
-                        <a href="#" className="hover:text-yellow-400">
+                        <a href="#" className="hover:text-prestige-yellow">
                             <FaFacebook />
                         </a>
-                        <a href="#" className="hover:text-yellow-400">
+                        <a href="#" className="hover:text-prestige-yellow">
                             <FaTwitter />
                         </a>
                     </div>
@@ -56,20 +56,20 @@ export default function Footer() {
                             Resources
                         </h4>
                         <ul className="space-y-2 text-sm">
-                            <li><a href="#" className="hover:text-yellow-400">About Us</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Services</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Technology</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Blogs</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Contact</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">About Us</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Services</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Technology</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Blogs</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Contact</a></li>
                         </ul>
                     </div>
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-3">Legal</h4>
                         <ul className="space-y-2 text-sm">
-                            <li><a href="#" className="hover:text-yellow-400">Disclaimers</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Privacy Policy</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Terms of Service</a></li>
-                            <li><a href="#" className="hover:text-yellow-400">Cookie Policy</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Disclaimers</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Privacy Policy</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Terms of Service</a></li>
+                            <li><a href="#" className="hover:text-prestige-yellow">Cookie Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,18 +79,18 @@ export default function Footer() {
                     <h4 className="text-lg font-semibold text-white mb-3">Contact Us</h4>
                     <ul className="space-y-4 text-sm">
                         <li className="flex items-start space-x-2">
-                            <FaMapMarkerAlt className="text-yellow-400 mt-1" />
+                            <FaMapMarkerAlt className="text-prestige-yellow mt-1" />
                             <span>
                                 8313 W. Hillsborough Ave. Suite 330 <br />
                                 Tampa, FL 33615
                             </span>
                         </li>
                         <li className="flex items-center space-x-2">
-                            <FaPhone className="text-yellow-400" />
+                            <FaPhone className="text-prestige-yellow" />
                             <span>(813) 243-2500</span>
                         </li>
                         <li className="flex items-center space-x-2">
-                            <FaFax className="text-yellow-400" />
+                            <FaFax className="text-prestige-yellow" />
                             <span>(813) 243-2502</span>
                         </li>
                     </ul>
@@ -100,11 +100,11 @@ export default function Footer() {
             {/* Bottom Bar */}
             <div className="relative z-10 border-t border-gray-700 mt-10 py-4 text-center text-sm text-gray-400">
                 <p>
-                    © <span className="text-yellow-400">Prestige</span> 2025. All rights reserved PRESTIGE Medical & Physical Therapy.
+                    © <span className="text-prestige-yellow">Prestige</span> 2025. All rights reserved PRESTIGE Medical & Physical Therapy.
                 </p>
                 <p className="mt-1">
                     Design & Development{" "}
-                    <a href="#" className="text-yellow-400 hover:underline">
+                    <a href="#" className="text-prestige-yellow hover:underline">
                         Bayshore Communication
                     </a>
                 </p>
