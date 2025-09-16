@@ -50,7 +50,7 @@ export default function HomeSection() {
                 </div>
 
                 {/* Form */}
-                <div className="bg-black p-6 rounded-b-xl flex flex-col md:flex-row items-center gap-4">
+                <div className="bg-[#151515] p-6 rounded-b-xl flex flex-col md:flex-row items-center gap-4 border border-white/30">
                     <input
                         type="text"
                         placeholder="Name"

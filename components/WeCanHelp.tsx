@@ -36,14 +36,14 @@ export default function WeCanHelp() {
   
     return (
       <section
-        className="bg-[url('/images/canhelp/can-help-bg.png')] bg-cover bg-center"
+        className="bg-[url('/images/canhelp/can-help-bg.png')] bg-black/80 bg-cover bg-center"
       >
         <div className="max-w-[1640px] mx-auto px-8 md:py-16 py-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-black">
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
               How We Can <span className="text-prestige-yellow">Help</span> You
             </h2>
-            <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
+            <p className="mt-4 text-white max-w-2xl mx-auto text-sm md:text-base">
               The physicians and staff at prestige understand that being injured in an auto accident can be extremely
               stressful for you and your family.
             </p>
@@ -58,8 +58,8 @@ export default function WeCanHelp() {
                 <div className="flex flex-col gap-4">
                   <div className="text-3xl">{item.icon}</div>
                   <div>
-                    <h3 className="text-lg font-semibold hover:text-white">{item.title}</h3>
-                    <p className="mt-2 text-sm text-gray-600">{item.desc}</p>
+                    <h3 className="text-lg font-semibold">{item.title}</h3>
+                    <p className="mt-2 text-sm">{item.desc}</p>
                   </div>
                   <button className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white hover:bg-prestige-yellow w-fit">
                     Learn More
