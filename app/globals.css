@@ -2,8 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Sansation font (Google Fonts) */
-@import url('https://fonts.googleapis.com/css2?family=Sansation:wght@400;700&display=swap');
+/* Sansation font loaded locally via next/font/local */
+
+
+h1 {
+    @apply font-sansation;
+}
+
+h2 {
+    @apply font-sansation;
+}
+
+h3 {
+    @apply font-sansation;
+}
+
+p {
+    @apply font-montserrat;
+}
+
+/* Ensure font variables are available */
+body {
+    font-family: var(--font-montserrat), sans-serif;
+}
+
+
 
 /* Global Scroll Reveal */
 .reveal {

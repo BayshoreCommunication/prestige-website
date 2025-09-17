@@ -2,7 +2,32 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
+import { Montserrat } from "next/font/google";
+import localFont from "next/font/local";
 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"],
+  display: "swap", // better loading performance
+  variable: "--font-montserrat",
+});
+
+
+const sansation = localFont({
+  src: [
+    {
+      path: "./fonts/Sansation-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Sansation-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-sansation",
+});
 
 
 export const metadata: Metadata = {
@@ -30,7 +55,7 @@ export default function RootLayout({
       lang="en"
 
     >
-      <body className="font-sansation">
+      <body className={`${montserrat.variable} ${sansation.variable}`}>
         <Providers>
           <Navbar />
           <main className="">{children}</main>

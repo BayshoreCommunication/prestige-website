@@ -44,7 +44,7 @@ export default function About() {
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">
                             About <span className="text-prestige-yellow">Prestige</span>
                         </h2>
-                        <p className="text-gray-300 mb-4">
+                        <p className="text-gray-300 mb-4 font-montserrat">
                             The physicians and staff at prestige understand that being injured in
                             an auto accident can be extremely stressful for you and your family.
                             Our multi-disciplinary team of Board Certified Medical Doctors
@@ -52,7 +52,7 @@ export default function About() {
                             and Board Certified Chiropractor (D.C.’s) will tailor an individual
                             treatment plan for your specific injury needs.
                         </p>
-                        <p className="text-gray-300 mb-6">
+                        <p className="text-gray-300 mb-6 font-montserrat">
                             Auto accidents can cause back or neck pain, soreness, numbness in
                             the arms or legs, joint or muscle pain, stress, anxiety, or
                             headaches. Through our individual medical evaluations and
