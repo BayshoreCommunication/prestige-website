@@ -17,12 +17,12 @@ export default function HomeSection() {
                     </p>
 
                     {/* CTA Buttons */}
-                    <div className=" mt-8 md:flex hidden items-center gap-6">
+                    <div className=" mt-8 md:flex items-center gap-6">
                         <button className="bg-black text-prestige-yellow px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
                             Request Appointment
                         </button>
 
-                        <div className="flex items-center gap-2 cursor-pointer">
+                        <div className="flex items-center gap-2 cursor-pointer mt-2">
                             <div className="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function HomeSection() {
             </div>
 
             {/* Appointment Banner */}
-            <div className="absolute left-1/2 bottom-[-60px] transform -translate-x-1/2 w-[90%] sm:w-[80%]">
+            <div className="absolute left-1/2 md:bottom-[-60px] bottom-[-20%] transform -translate-x-1/2 w-[90%] sm:w-[80%]">
                 <div className="bg-prestige-yellow text-black px-6 py-3 rounded-t-xl font-bold text-lg flex items-center font-sansation">
                     <span className="mr-3"><Image src="/images/home/icon.png" alt="calendar" width={20} height={20} /></span> Book an appointment today
                 </div>
