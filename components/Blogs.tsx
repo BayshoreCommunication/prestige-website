@@ -2,18 +2,13 @@ import Image from "next/image";
 
 const blogs = [
   {
-<<<<<<< HEAD
     image: "/images/blogs/img1.png",
-=======
-    image: "/images/blogs/Link.png",
->>>>>>> 0d459ff4bfc494c648de0a62c8b49091a6fccfbe
     title: "Digital Radiography is good for health",
     description:
       "Experience compassionate care tailored to your needs. Our team is dedicated to providing effective treatment in a comfortable and supportive environment.",
     link: "#",
   },
   {
-<<<<<<< HEAD
     image: "/images/blogs/img2.png",
     title: "Laser Therapy System Save Lives: Here’s Why",
     description:
@@ -32,26 +27,6 @@ const blogs = [
     title: "Spinal Decompression Machines",
     description:
       "Your health is our focus — providing attentive, effective care to help you regain strength and confidence.",
-=======
-    image: "/images/blogs/Link (1).png",
-    title: "Laser Therapy System Save Lives: Here’s Why",
-    description:
-      "Curabitur sit amet nunc erat. Integer id enim sed lectus efficitur faucibus vel augue vitae.",
-    link: "#",
-  },
-  {
-    image: "/images/blogs/Link (2).png",
-    title: "Top Reasons for Whole-Body Vibration",
-    description:
-      "Vivamus sit amet odio nunc. Pellentesque id enim sed lectus congue consequat, faucibus vel augue.",
-    link: "#",
-  },
-  {
-    image: "/images/blogs/Link (3).png",
-    title: "Spinal Decompression Machines",
-    description:
-      "Nullam sit amet odio ex. Pellentesque id enim sed lectus, consequat faucibus vel augue semper.",
->>>>>>> 0d459ff4bfc494c648de0a62c8b49091a6fccfbe
     link: "#",
   },
 ];
