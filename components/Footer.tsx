@@ -32,17 +32,14 @@ export default function Footer() {
 
                     {/* Social Icons */}
                     <div className="flex space-x-4 mt-5 text-xl">
-                        <a href="#" className="hover:text-prestige-yellow">
+                        <a href="https://www.instagram.com/prestigephysical" className="hover:text-prestige-yellow">
                             <FaInstagram />
                         </a>
-                        <a href="#" className="hover:text-prestige-yellow">
+                        <a href="https://www.youtube.com/@PrestigePhysicalTherapy" className="hover:text-prestige-yellow">
                             <FaYoutube />
                         </a>
-                        <a href="#" className="hover:text-prestige-yellow">
+                        <a href="https://www.facebook.com/PrestigeMedicalPhysicalTherapy/" className="hover:text-prestige-yellow">
                             <FaFacebook />
-                        </a>
-                        <a href="#" className="hover:text-prestige-yellow">
-                            <FaTwitter />
                         </a>
                     </div>
                 </div>
