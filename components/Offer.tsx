@@ -4,32 +4,32 @@ export default function Offer() {
     const offerings = [
         {
             title: "Multi-Disciplinary Care",
-            desc: "Offers digital X-rays, physical therapy, chiropractic care, trigger point injections, and medical evaluations at each location.",
+            desc: "At Prestige, our physicians and staff understand the significant emotional and physical impact an auto accident injury can have on you and your family.",
             icon: <Image src="/images/offer/img1.png" alt="Multi-Disciplinary Care" width={24} height={24} className="w-[60px] h-auto"/>,
         },
         {
             title: "Care without Upfront Costs",
-            desc: "Assistance with auto insurance claims, covered under PIP benefits in Florida with no upfront costs.",
+            desc: "We assist with auto insurance claims covered by Florida’s PIP benefits, ensuring no upfront costs for you.",
             icon: <Image src="/images/offer/img2.png" alt="Multi-Disciplinary Care" width={24} height={24} className="w-[60px] h-auto"/>,
         },
         {
             title: "Convenient & Compassionate Service",
-            desc: "Same-day appointments and walk-ins with 18 locations across West Central Florida.",
+            desc: "Offering same-day appointments and walk-ins at 18 convenient locations throughout West Central Florida.",
             icon: <Image src="/images/offer/img3.png" alt="Multi-Disciplinary Care" width={24} height={24} className="w-[60px] h-auto"/>,
         },
         {
             title: "Transportation Available",
-            desc: "Transportation services for medical appointments.",
+            desc: "Transportation services available for all medical appointments.",
             icon: <Image src="/images/offer/img4.png" alt="Multi-Disciplinary Care" width={24} height={24} className="w-[60px] h-auto"/>,
         },
         {
             title: "24/7 Personal Help",
-            desc: "Operators available 24/7/365, with extended office hours for convenience.",
+            desc: "Our operators are available 24/7/365, with extended office hours to accommodate your schedule.",
             icon: <Image src="/images/offer/img5.png" alt="Multi-Disciplinary Care" width={24} height={24} className="w-[60px] h-auto"/>,
         },
         {
             title: "Same-Day Appointments",
-            desc: "Prompt scheduling for those in pain or needing urgent care.",
+            desc: "Prompt scheduling for patients experiencing pain or requiring urgent care.",
             icon: <Image src="/images/offer/img6.png" alt="Multi-Disciplinary Care" width={24} height={24} className="w-[60px] h-auto"/>,
         },
     ];

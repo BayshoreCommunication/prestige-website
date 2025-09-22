@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
@@ -31,9 +32,14 @@ const sansation = localFont({
 
 
 export const metadata: Metadata = {
-  title: "prestigeweb",
-  description: "prestige website",
-  // metadataBase: new URL(""),
+  title: "PRESTIGE Medical & Physical Therapy",
+  description: "Professional medical and physical therapy services with advanced treatment options and personalized care.",
+  // metadataBase: new URL("https://prestigemedical.com"),
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   alternates: {
     canonical: "/",
     languages: {
@@ -41,7 +47,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    images: "/", //opengraph-image.png
+    title: "PRESTIGE Medical & Physical Therapy",
+    description: "Professional medical and physical therapy services with advanced treatment options and personalized care.",
+    images: "/opengraph-image.png",
+    type: "website",
   },
 };
 
@@ -59,6 +68,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <main className="">{children}</main>
+          <Footer/>
         </Providers>
       </body>
     </html>

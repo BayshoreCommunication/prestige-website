@@ -2,31 +2,31 @@ import Image from "next/image";
 
 const blogs = [
   {
-    image: "/images/blogs/blog1.png",
-    title: "Caring for Your Child’s Health: Essentials for Parents",
+    image: "/images/blogs/img1.png",
+    title: "Digital Radiography is good for health",
     description:
-      "Phasellus sit amet odio ex. Pellentesque id enim sed lectus consectetur consequat faucibus vel augue.",
+      "Experience compassionate care tailored to your needs. Our team is dedicated to providing effective treatment in a comfortable and supportive environment.",
     link: "#",
   },
   {
-    image: "/images/blogs/blog2.png",
-    title: "Early Screenings Save Lives: Here’s Why",
+    image: "/images/blogs/img2.png",
+    title: "Laser Therapy System Save Lives: Here’s Why",
     description:
-      "Phasellus sit amet odio ex. Pellentesque id enim sed lectus consectetur consequat faucibus vel augue.",
+      "We prioritize your well-being with personalized care designed to promote healing and comfort every step of the way.",
     link: "#",
   },
   {
-    image: "/images/blogs/blog3.png",
-    title: "Top Reasons to Schedule a Dental Visit This Year",
+    image: "/images/blogs/img3.png",
+    title: "Top Reasons for Whole-Body Vibration",
     description:
-      "Phasellus sit amet odio ex. Pellentesque id enim sed lectus consectetur consequat faucibus vel augue.",
+      "Committed to your recovery, our team delivers expert treatment in a welcoming and supportive setting.",
     link: "#",
   },
   {
-    image: "/images/blogs/blog3.png",
-    title: "Top Reasons to Schedule a Dental Visit This Year",
+    image: "/images/blogs/img4.png",
+    title: "Spinal Decompression Machines",
     description:
-      "Phasellus sit amet odio ex. Pellentesque id enim sed lectus consectetur consequat faucibus vel augue.",
+      "Your health is our focus — providing attentive, effective care to help you regain strength and confidence.",
     link: "#",
   },
 ];

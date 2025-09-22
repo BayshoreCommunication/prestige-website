@@ -26,7 +26,7 @@ export default function Stats() {
       }, 16);
     };
 
-    animateCounter(setYears, 27, 2000); // 27 years in 2s
+    animateCounter(setYears, 10, 2000); // 10 years in 2s
     animateCounter(setSatisfaction, 98, 2000); // 98% in 2s
     animateCounter(setTechnologies, 16, 2000); // 16+ in 2s
     animateCounter(setAvailability, 24, 2000); // 24/7 in 2s
@@ -42,7 +42,8 @@ export default function Stats() {
             <div>
               <h3 className="text-prestige-yellow text-2xl font-bold">{years}+</h3>
               <p className="text-gray-300 text-sm">
-                Combined Excellency of Years
+                Doctor’s Team
+                Members
               </p>
             </div>
           </div>

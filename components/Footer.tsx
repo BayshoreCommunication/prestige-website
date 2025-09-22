@@ -21,12 +21,10 @@ export default function Footer() {
                             width={200}
                             height={70}
                         />
-                        
+
                     </div>
                     <p className="mt-4 text-sm leading-relaxed text-gray-400">
-                        The physicians and staff at Hess Spinal and Medical Centers
-                        understand that being injured in an auto accident can be extremely
-                        stressful for you and your family.
+                        The physicians and staff at Hess Spinal and Medical Centers understand that being injured in an auto accident can be extremely stressful for you and your family.
                     </p>
                     <p className="mt-3 text-sm font-semibold text-white">
                         Hours: 8:30am - 7:00pm
@@ -98,7 +96,7 @@ export default function Footer() {
             </div>
 
             {/* Bottom Bar */}
-            <div className="relative z-10 border-t border-gray-700 mt-10 py-4 text-center text-sm text-gray-400">
+            <div className="relative z-10 border-t border-gray-700 mt-10 py-4 text-center text-sm text-gray-400 ">
                 <p>
                     © <span className="text-prestige-yellow">Prestige</span> 2025. All rights reserved PRESTIGE Medical & Physical Therapy.
                 </p>

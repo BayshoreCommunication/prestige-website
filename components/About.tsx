@@ -45,20 +45,10 @@ export default function About() {
                             About <span className="text-prestige-yellow">Prestige</span>
                         </h2>
                         <p className="text-gray-300 mb-4 font-montserrat">
-                            The physicians and staff at prestige understand that being injured in
-                            an auto accident can be extremely stressful for you and your family.
-                            Our multi-disciplinary team of Board Certified Medical Doctors
-                            (M.D.’s), Board Certified Doctors of Osteopathic Medicine (D.O.’s)
-                            and Board Certified Chiropractor (D.C.’s) will tailor an individual
-                            treatment plan for your specific injury needs.
+                            At Prestige, we recognize that auto accident injuries bring significant stress to you and your loved ones. Our multidisciplinary team—comprising Board-Certified Medical Doctors (M.D.s), Doctors of Osteopathic Medicine (D.O.s), and Chiropractors (D.C.s)—collaborates closely to design a personalized treatment plan tailored precisely to your unique injury and recovery needs.
                         </p>
                         <p className="text-gray-300 mb-6 font-montserrat">
-                            Auto accidents can cause back or neck pain, soreness, numbness in
-                            the arms or legs, joint or muscle pain, stress, anxiety, or
-                            headaches. Through our individual medical evaluations and
-                            consultations, prestige will identify and help alleviate these
-                            conditions. Prestige work closely with primary care physicians in
-                            the Tampa Bay area.
+                            Auto accidents often result in back or neck pain, numbness in the arms or legs, joint or muscle discomfort, as well as stress, anxiety, and headaches. At Prestige, our thorough medical evaluations and personalized consultations allow us to accurately diagnose and effectively treat these conditions. We also collaborate closely with primary care physicians throughout the Tampa Bay area to ensure comprehensive, coordinated care.
                         </p>
 
                         <button className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition">

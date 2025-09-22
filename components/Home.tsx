@@ -13,14 +13,12 @@ export default function HomeSection() {
                         Strong today, <br /> Stronger tomorrow.
                     </h1>
                     <p className="mt-6 text-gray-700 text-base md:text-lg sm:max-w-xl">
-                        We have specialized in treating the victims of auto accidents since
-                        2001. Let our team of dedicated medical professionals help you find
-                        relief from your pain and suffering.
+                        We specialize in physical therapy for individuals recovering from auto accidents. Let our experienced team help you regain strength, restore mobility, and find lasting relief from pain.
                     </p>
 
                     {/* CTA Buttons */}
                     <div className=" mt-8 md:flex hidden items-center gap-6">
-                        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
+                        <button className="bg-black text-prestige-yellow px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
                             Request Appointment
                         </button>
 
@@ -45,7 +43,7 @@ export default function HomeSection() {
 
             {/* Appointment Banner */}
             <div className="absolute left-1/2 bottom-[-60px] transform -translate-x-1/2 w-[90%] sm:w-[80%]">
-                <div className="bg-prestige-yellow text-black px-6 py-3 rounded-t-xl font-bold text-lg flex items-center">
+                <div className="bg-prestige-yellow text-black px-6 py-3 rounded-t-xl font-bold text-lg flex items-center font-sansation">
                     <span className="mr-3"><Image src="/images/home/icon.png" alt="calendar" width={20} height={20} /></span> Book an appointment today
                 </div>
 
