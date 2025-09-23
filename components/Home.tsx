@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HomeSection() {
     return (
-        <section className="relative w-full bg-[url('/images/home/hero-bg.png')] bg-cover bg-center md:min-h-[80vh] xs:min-h-[650px] min-h-[660px] h-full">
+        <section className="relative w-full bg-[url('/images/home/hero-bg.png')] bg-cover bg-center md:min-h-[80vh] xs:min-h-[650px] min-h-[685px] h-full">
             <div className="max-w-[1640px] mx-auto flex flex-col lg:flex-row items-center justify-between px-8   pt-16 lg:pt-24">
 
                 {/* Left Content */}
