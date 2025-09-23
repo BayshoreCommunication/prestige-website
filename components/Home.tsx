@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function HomeSection() {
     return (
-        <section className="relative w-full bg-[url('/images/home/hero-bg.png')] bg-cover bg-center min-h-[80vh]">
-            <div className="max-w-[1640px] mx-auto flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 pt-16 lg:pt-24">
+        <section className="relative w-full bg-[url('/images/home/hero-bg.png')] bg-cover bg-center md:min-h-[80vh] xs:min-h-[650px] min-h-[660px] h-full">
+            <div className="max-w-[1640px] mx-auto flex flex-col lg:flex-row items-center justify-between px-8   pt-16 lg:pt-24">
 
                 {/* Left Content */}
                 <div className="flex-1 text-left lg:max-w-xl">
@@ -42,38 +42,44 @@ export default function HomeSection() {
             </div>
 
             {/* Appointment Banner */}
-            <div className="absolute left-1/2 md:bottom-[-60px] bottom-[-20%] transform -translate-x-1/2 w-[90%] sm:w-[80%]">
+            <div className="absolute left-1/2 md:bottom-[-60px] bottom-[-30%] sm:bottom-[-20%] transform -translate-x-1/2 w-[95%] sm:w-[90%] lg:w-[80%]">
+                {/* Header */}
                 <div className="bg-prestige-yellow text-black px-6 py-3 rounded-t-xl font-bold text-lg flex items-center font-sansation">
-                    <span className="mr-3"><Image src="/images/home/icon.png" alt="calendar" width={20} height={20} /></span> Book an appointment today
+                    <span className="mr-3">
+                        <Image src="/images/home/icon.png" alt="calendar" width={20} height={20} />
+                    </span>
+                    Book an appointment today
                 </div>
 
                 {/* Form */}
-                <div className="bg-[#151515] p-6 rounded-b-xl flex flex-col md:flex-row items-center gap-4 border border-white/30">
+                <div className="bg-[#151515] p-6 rounded-b-xl flex flex-col md:flex-row md:flex-wrap gap-4 border border-white/30">
                     <input
                         type="text"
                         placeholder="Name"
-                        className="w-full md:w-auto flex-1 px-4 py-2 border border-gray-600 rounded bg-transparent text-white placeholder-gray-400 focus:outline-none"
+                        className="w-full md:flex-1 px-4 py-2 border border-gray-600 rounded bg-transparent text-white placeholder-gray-400 focus:outline-none"
                     />
                     <input
                         type="email"
                         placeholder="Email"
-                        className="w-full md:w-auto flex-1 px-4 py-2 border border-gray-600 rounded bg-transparent text-white placeholder-gray-400 focus:outline-none"
+                        className="w-full md:flex-1 px-4 py-2 border border-gray-600 rounded bg-transparent text-white placeholder-gray-400 focus:outline-none"
                     />
                     <input
                         type="tel"
                         placeholder="Phone"
-                        className="w-full md:w-auto flex-1 px-4 py-2 border border-gray-600 rounded bg-transparent text-white placeholder-gray-400 focus:outline-none"
+                        className="w-full md:flex-1 px-4 py-2 border border-gray-600 rounded bg-transparent text-white placeholder-gray-400 focus:outline-none"
                     />
-                    <select className="w-full md:w-auto flex-1 px-4 py-2 border border-gray-600 rounded bg-black text-white focus:outline-none">
+                    <select className="w-full md:flex-1 px-4 py-2 border border-gray-600 rounded bg-black text-white focus:outline-none">
                         <option>Select</option>
                         <option>Consultation</option>
                         <option>Follow-up</option>
                     </select>
-                    <button className="bg-prestige-yellow text-sm text-black font-semibold px-6 py-2 rounded hover:bg-yellow-500 transition">
+                    <button className="w-full md:w-auto bg-prestige-yellow text-sm text-black font-semibold px-6 py-2 rounded hover:bg-yellow-500 transition">
                         Book Now
                     </button>
                 </div>
             </div>
+
+
         </section>
     );
 }

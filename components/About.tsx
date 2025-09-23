@@ -8,7 +8,7 @@ export default function About() {
             <section className="max-w-[1640px] mx-auto px-8 md:pt-32 md:pb-8 py-8 ">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left - Images */}
-                    <div className="grid grid-cols-2 gap-6 mt-[140px] md:mt-0">
+                    <div className="grid grid-cols-2 gap-6 mt-[250px] md:mt-0">
                         {/* Tall Image */}
                         <div className="row-span-2">
                             <Image
