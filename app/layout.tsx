@@ -1,9 +1,10 @@
-import Navbar from "@/components/Navbar";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 import type { Metadata } from "next";
-import "./globals.css";
-import { Providers } from "./providers";
 import { Montserrat } from "next/font/google";
 import localFont from "next/font/local";
+import "./globals.css";
+import { Providers } from "./providers";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -11,7 +12,6 @@ const montserrat = Montserrat({
   display: "swap", // better loading performance
   variable: "--font-montserrat",
 });
-
 
 const sansation = localFont({
   src: [
@@ -28,7 +28,6 @@ const sansation = localFont({
   ],
   variable: "--font-sansation",
 });
-
 
 export const metadata: Metadata = {
   title: "prestigeweb",
@@ -51,14 +50,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-
-    >
+    <html lang="en">
       <body className={`${montserrat.variable} ${sansation.variable}`}>
         <Providers>
           <Navbar />
           <main className="">{children}</main>
+          <Footer />
         </Providers>
       </body>
     </html>
