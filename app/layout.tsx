@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
-=======
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
->>>>>>> 994f41532d5b6b2fbb7460bc8ee6360a31fb3397
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import localFont from "next/font/local";
@@ -36,7 +31,8 @@ const sansation = localFont({
 
 export const metadata: Metadata = {
   title: "PRESTIGE Medical & Physical Therapy",
-  description: "Professional medical and physical therapy services with advanced treatment options and personalized care.",
+  description:
+    "Professional medical and physical therapy services with advanced treatment options and personalized care.",
   // metadataBase: new URL("https://prestigemedical.com"),
   icons: {
     icon: "/favicon.ico",
@@ -51,7 +47,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "PRESTIGE Medical & Physical Therapy",
-    description: "Professional medical and physical therapy services with advanced treatment options and personalized care.",
+    description:
+      "Professional medical and physical therapy services with advanced treatment options and personalized care.",
     images: "/opengraph-image.png",
     type: "website",
   },
@@ -68,11 +65,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <main className="">{children}</main>
-<<<<<<< HEAD
           <Footer />
-=======
-          <Footer/>
->>>>>>> 994f41532d5b6b2fbb7460bc8ee6360a31fb3397
         </Providers>
       </body>
     </html>

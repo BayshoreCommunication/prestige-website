@@ -24,7 +24,7 @@ export default function Footer() {
 
                     </div>
                     <p className="mt-4 text-sm leading-relaxed text-gray-400">
-                        The physicians and staff at Prestige and Medical Centers understand that being injured in an auto accident can be extremely stressful for you and your family.
+                        The physicians and staff at Prestige & Physical Therapy understand that being injured in an auto accident can be extremely stressful for you and your family.
                     </p>
                     <p className="mt-3 text-sm font-semibold text-white">
                         Hours: 8:30am - 7:00pm
