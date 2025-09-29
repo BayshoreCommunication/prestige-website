@@ -1,0 +1,103 @@
+import Image from "next/image";
+
+export default function WhyChoosePrestige() {
+  const leftItems = [
+    {
+      title: "Comprehensive Care in One Location",
+      desc: "Access a wide range of medical services all in one place—no extra appointments needed.",
+      icon: <Image src="/images/whychoose/img1.png" alt="Comprehensive Care in One Location" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+    {
+      title: "Immediate Treatment, No Upfront Costs",
+      desc: "PIP coverage enables accident victims to receive timely care without payment delays.",
+      icon: <Image src="/images/whychoose/img2.png" alt="Immediate Treatment, No Upfront Costs" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+    {
+      title: "Expert Injury Care with Insurance Assistance",
+      desc: "Receive treatment while we manage your auto insurance claims for you.",
+      icon: <Image src="/images/whychoose/img3.png" alt="Expert Injury Care with Insurance Assistance" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+    {
+      title: "No Financial Barriers to Recovery",
+      desc: "Receive essential medical care with no out-of-pocket expenses.",
+      icon: <Image src="/images/whychoose/img4.png" alt="No Financial Barriers to Recovery" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+  ];
+
+  const rightItems = [
+    {
+      title: "Hassle-Free Accident Injury Treatment",
+      desc: "Covered by Florida’s PIP benefits—no upfront costs necessary.",
+      icon: <Image src="/images/whychoose/img5.png" alt="Hassle-Free Accident Injury Treatment" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+    {
+      title: "Seamless Insurance Claim Support",
+      desc: "We handle your claims to ensure a stress-free medical experience.",
+      icon: <Image src="/images/whychoose/img6.png" alt="Seamless Insurance Claim Support" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+    {
+      title: "Compassionate Care, Zero Upfront Costs",
+      desc: "Focus on your recovery while we take care of your insurance coverage.",
+      icon: <Image src="/images/whychoose/img7.png" alt="Compassionate Care, Zero Upfront Costs" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+    {
+      title: "Dedicated Auto Injury Treatment Team",
+      desc: "Expert medical care tailored specifically for accident recovery.",
+      icon: <Image src="/images/whychoose/img8.png" alt="Dedicated Auto Injury Treatment Team" width={70} height={70} className="w-[60px] h-[60px]" />,
+    },
+  ];
+
+  return (
+    <section className="bg-prestige-black">
+      <div className="max-w-[1640px] mx-auto px-8 md:py-16 py-8 text-white">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Why choose <span className="text-prestige-yellow">Prestige</span>?
+          </h2>
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
+            At Prestige, our physicians and staff deeply understand the stress that an auto accident injury can cause for you and your family.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+          {/* Left Column */}
+          <div className="space-y-6">
+            {leftItems.map((item, i) => (
+              <div key={i} className="flex gap-4">
+                {item.icon}
+                <div>
+                  <h3 className="font-semibold">{item.title}</h3>
+                  <p className="text-gray-400 text-sm mt-1">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Middle Image */}
+          <div className="flex justify-center">
+            <div className="rounded-xl overflow-hidden">
+              <img
+                src="/images/whychoose/before.png"
+                alt="Before and After"
+                className="w-full object-cover"
+              />
+            </div>
+          </div>
+
+          {/* Right Column */}
+          <div className="space-y-6">
+            {rightItems.map((item, i) => (
+              <div key={i} className="flex gap-4">
+                {item.icon}
+                <div>
+                  <h3 className="font-semibold">{item.title}</h3>
+                  <p className="text-gray-400 text-sm mt-1">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
