@@ -84,7 +84,7 @@ export default function WeCanHelp() {
   ];
 
   return (
-    <section className="bg-[url('/images/canhelp/can-help-bg.png')] bg-black/80 bg-cover bg-center">
+    <section className="bg-prestige-black bg-black/80 bg-cover bg-center">
       <div className="max-w-[1640px] mx-auto px-8 md:py-16 py-8">
         <div className="text-center mb-12">
           <Stagger>
@@ -108,7 +108,7 @@ export default function WeCanHelp() {
           <Stagger>
             {services.map((item, i) => (
               <Reveal key={i} y={16} opacityFrom={0}>
-                <div className="rounded-xl p-6 border bg-white text-black hover:shadow-md hover:bg-[#323232] hover:text-white transition group hover:border-none">
+                <div className="rounded-xl p-6 border bg-white text-black hover:shadow-md hover:bg-[#323232] hover:text-white transition hover:border-none group">
                   <div className="flex flex-col gap-4">
                     <div className="text-3xl">{item.icon}</div>
                     <div>
