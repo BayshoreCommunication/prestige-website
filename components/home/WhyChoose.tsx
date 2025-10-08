@@ -155,9 +155,11 @@ export default function WhyChoosePrestige() {
           {/* Middle Image */}
           <div className="flex justify-center">
             <div className="rounded-xl overflow-hidden">
-              <img
+              <Image
                 src="/images/whychoose/before.png"
                 alt="Before and After"
+                width={1000}
+                height={800}
                 className="w-full object-cover"
               />
             </div>

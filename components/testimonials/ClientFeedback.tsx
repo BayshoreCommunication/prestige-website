@@ -102,9 +102,8 @@ export default function ClientFeedback() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <Stagger>
         {feedbacks.map((client, i) => (
-          <Reveal y={40} opacityFrom={0}>
+          <Reveal y={40} opacityFrom={0} key={client.name + i}>
           <div
-            key={i}
             onClick={() => setSelected(client)}
             className="bg-white text-black rounded-lg p-6 text-left shadow-md hover:bg-[#323232] hover:text-white transition duration-300 cursor-pointer group"
           >
