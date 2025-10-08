@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaYoutube, FaFacebookF, FaTwitter } from "react-icons/fa";
+import Reveal from "@/components/motion/Reveal";
+import Stagger from "@/components/motion/Stagger";
 
 // Example doctor data — replace images and info as needed
 const doctors = [
@@ -118,6 +120,7 @@ export default function OurDoctors() {
             key={i}
             className="bg-[#151515] rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300"
           >
+            <Reveal y={40} opacityFrom={0}>
             <div className="relative w-full h-auto">
               <Image
                 src={doc.img}
@@ -165,6 +168,7 @@ export default function OurDoctors() {
                 </Link>
               </div>
             </div>
+            </Reveal>
           </div>
         ))}
       </div>

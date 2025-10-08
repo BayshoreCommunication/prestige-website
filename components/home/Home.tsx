@@ -53,6 +53,11 @@ export default function HomeSection() {
       </div>
 
       {/* Appointment Banner */}
+      {/* position: absolute;
+      z-index: 50;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) */}
 
       <div className="absolute left-1/2 bottom-[-60px] transform -translate-x-1/2 w-[90%] sm:w-[80%]">
         <div className="bg-prestige-yellow text-black px-6 py-3 rounded-t-xl font-bold text-lg flex items-center">

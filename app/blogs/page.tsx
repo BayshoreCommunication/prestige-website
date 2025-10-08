@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
         <Blogs/>
-        <LatestBlogs/>
+        {/* <LatestBlogs/> */}
         <SimpleMap />
     </>
   );

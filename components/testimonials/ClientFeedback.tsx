@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Reveal from "@/components/motion/Reveal";
+import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 
@@ -84,17 +86,23 @@ export default function ClientFeedback() {
       <section className="max-w-[1640px] px-8 py-8 md:py-16 mx-auto text-center">
       {/* ===== Header ===== */}
       <div className="mb-12">
+      <Reveal y={20} opacityFrom={0}>
         <h2 className="text-3xl md:text-5xl font-bold text-white">
           The <span className="text-prestige-yellow">Feedback</span> From Our Clients
         </h2>
+        </Reveal>
+        <Reveal y={30} opacityFrom={0}>
         <p className="text-gray-300 mt-4 max-w-3xl mx-auto">
           Real stories from patients who found relief, recovery, and renewed confidence with Prestige.
         </p>
+        </Reveal>
       </div>
 
       {/* ===== Feedback Grid ===== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <Stagger>
         {feedbacks.map((client, i) => (
+          <Reveal y={40} opacityFrom={0}>
           <div
             key={i}
             onClick={() => setSelected(client)}
@@ -128,7 +136,11 @@ export default function ClientFeedback() {
               Learn More
             </button>
           </div>
+          </Reveal>
         ))}
+        
+        </Stagger>
+        
       </div>
 
       {/* ===== Modal ===== */}

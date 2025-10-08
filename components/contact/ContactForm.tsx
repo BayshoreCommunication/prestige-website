@@ -1,5 +1,7 @@
 "use client";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import Reveal from "@/components/motion/Reveal";
+import Stagger from "@/components/motion/Stagger";
 
 export default function ContactForm() {
   return (
@@ -8,6 +10,7 @@ export default function ContactForm() {
         {/* ===== Top Info Cards ===== */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Address */}
+          <Reveal y={30} opacityFrom={0}>
           <div className="bg-[#151515] p-6 rounded-xl space-y-4">
             <h3 className="text-xl font-semibold border-b border-gray-700 pb-2">
               Contact Information
@@ -18,7 +21,8 @@ export default function ContactForm() {
                   <FaMapMarkerAlt /> Address:
                 </p>
                 <p className="text-gray-300">
-                  4505 Town N Country Blvd Tampa, FL 33615
+                8313 W. Hillsborough Ave. Suite 330
+                Tampa, FL 33615
                 </p>
               </div>
               <div>
@@ -26,14 +30,16 @@ export default function ContactForm() {
                   <FaPhoneAlt /> Phone:
                 </p>
                 <p className="text-gray-300">
-                  (800) 618-4377 – Main <br />
-                  (813) 514-2725 – Fax
+                  (813) 243-2500 – Main <br />
+                  (813) 243-2502 – Fax
                 </p>
               </div>
             </div>
           </div>
+          </Reveal>
 
           {/* Email */}
+          <Reveal y={35} opacityFrom={0}>
           <div className="bg-[#151515] p-6 rounded-xl space-y-4">
             <h3 className="text-xl font-semibold border-b border-gray-700 pb-2">
               Email Information
@@ -55,8 +61,9 @@ export default function ContactForm() {
               </div>
             </div>
           </div>
-
+          </Reveal>
           {/* Working Hours */}
+          <Reveal y={40} opacityFrom={0}>
           <div className="bg-[#151515] p-6 rounded-xl space-y-4">
             <h3 className="text-xl font-semibold border-b border-gray-700 pb-2">
               Working Hours
@@ -85,6 +92,7 @@ export default function ContactForm() {
               </p>
             </div>
           </div>
+          </Reveal>
         </div>
 
         {/* ===== Contact Form ===== */}
