@@ -39,16 +39,6 @@ const Navbar = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <nav className="bg-black text-white  z-50 ">
-      <div className="max-w-[1640px] mx-auto px-8 md:py-4 py-2 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-3">
-              {/* Logo Image */}
-              <div className="flex flex-col">
-=======
     <header
       className={`transition-all duration-700 ${
         isSticky
@@ -62,7 +52,6 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center">
               <Link href="/" className="flex items-center space-x-3">
->>>>>>> f467b50d86298e236006f9a2215a6e14a2d06ad8
                 <Image
                   src="/images/navbar/logo.png"
                   alt="PRESTIGE Medical & Physical Therapy Logo"
@@ -95,12 +84,7 @@ const Navbar = () => {
             <div className="hidden lg:flex">
               <Link
                 href="/emergency"
-<<<<<<< HEAD
-                className="bg-prestige-yellow text-black px-3 py-2 rounded-md font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2 mt-4"
-                onClick={() => setIsMenuOpen(false)}
-=======
                 className="bg-prestige-yellow text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2"
->>>>>>> f467b50d86298e236006f9a2215a6e14a2d06ad8
               >
                 <Phone className="w-4 h-4" />
                 <span>Emergency Call</span>
