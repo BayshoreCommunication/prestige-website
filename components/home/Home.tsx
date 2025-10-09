@@ -3,6 +3,7 @@
 import Reveal from "@/components/motion/Reveal";
 import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeSection() {
   return (
@@ -27,9 +28,12 @@ export default function HomeSection() {
             {/* CTA Buttons */}
             <Reveal y={12} opacityFrom={0}>
               <div className=" mt-8 md:flex hidden items-center gap-6">
-                <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
+                <Link
+                  href="/contact"
+                  className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
+                >
                   Request Appointment
-                </button>
+                </Link>
 
                 <div className="flex items-center gap-2 cursor-pointer">
                   <div className="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center">

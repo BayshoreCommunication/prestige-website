@@ -26,7 +26,7 @@ export default function WeCanHelp() {
           alt="Digital Radiography"
           width={60}
           height={60}
-          className="w-[60px] h-[60px]"
+          className="w-[60px] h-[60px] opacity-70"
         />
       ),
     },
@@ -84,7 +84,7 @@ export default function WeCanHelp() {
   ];
 
   return (
-    <section className="bg-prestige-black bg-black/80 bg-cover bg-center">
+    <section className="bg-prestige-black bg-black/80 bg-cover bg-center ">
       <div className="max-w-[1640px] mx-auto px-8 md:py-16 py-8">
         <div className="text-center mb-12">
           <Stagger>
@@ -108,14 +108,18 @@ export default function WeCanHelp() {
           <Stagger>
             {services.map((item, i) => (
               <Reveal key={i} y={16} opacityFrom={0}>
-                <div className="rounded-xl p-6 border bg-white text-black hover:shadow-md hover:bg-[#323232] hover:text-white transition hover:border-none group">
-                  <div className="flex flex-col gap-4">
-                    <div className="text-3xl">{item.icon}</div>
-                    <div>
-                      <h3 className="text-lg font-semibold">{item.title}</h3>
-                      <p className="mt-2 text-sm">{item.desc}</p>
+                <div className="h-full">
+                  <div className="flex flex-col justify-between h-full rounded-xl p-6 bg-white text-black hover:shadow-md hover:bg-[#323232] hover:text-white transition hover:border-none group">
+                    <div className="flex flex-col gap-4">
+                      <div className="text-3xl transition duration-300 group-hover:invert group-hover:brightness-0 group-hover:contrast-200 ">
+                        {item.icon}
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold">{item.title}</h3>
+                        <p className="mt-2 text-sm">{item.desc}</p>
+                      </div>
                     </div>
-                    <button className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white group-hover:bg-prestige-yellow w-fit">
+                    <button className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white group-hover:bg-prestige-yellow duration-300 w-fit">
                       Learn More
                     </button>
                   </div>
