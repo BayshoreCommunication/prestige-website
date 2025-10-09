@@ -1,18 +1,17 @@
 "use client";
 import Services from "@/components/services/Services";
 import WeCanHelp from "@/components/services/WeCanHelp";
-import WhyChoosePrestige from "@/components/services/WhyChoose";
-import SimpleMap from "@/components/services/SimpleMap";
 
+import SimpleMap from "@/components/services/SimpleMap";
+import WhyChoosePrestige from "@/components/home/WhyChoose";
 
 const About = () => {
-
   return (
     <>
-        <Services/>
-        <WeCanHelp/>
-        <WhyChoosePrestige/>
-        <SimpleMap/>
+      <Services />
+      <WeCanHelp />
+      <WhyChoosePrestige />
+      <SimpleMap />
     </>
   );
 };

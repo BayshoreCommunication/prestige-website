@@ -40,6 +40,7 @@ export const metadata: Metadata = {
       "en-US": "/en-US",
     },
   },
+
   openGraph: {
     images: "/opengraph-image.png",
   },

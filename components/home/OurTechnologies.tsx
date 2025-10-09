@@ -4,7 +4,7 @@ import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const technologies = [
@@ -83,10 +83,9 @@ export default function Technologies() {
         <Swiper
           modules={[Autoplay]}
           spaceBetween={20}
-          pagination={{ clickable: true }}
           autoplay={{
             delay: 2500,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
             pauseOnMouseEnter: true,
           }}
           loop
@@ -99,15 +98,15 @@ export default function Technologies() {
         >
           {technologies.map((tech, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-[#111] rounded-2xl overflow-hidden shadow-lg h-full">
+              <div className=" overflow-hidden ">
                 <Image
                   src={tech.image}
                   alt={tech.title}
                   width={500}
                   height={300}
-                  className="w-full h-56 object-cover"
+                  className="w-full  object-cover"
                 />
-                <div className="p-5">
+                <div className="pt-5">
                   <h3 className="text-lg font-semibold text-white">
                     {tech.title}
                   </h3>

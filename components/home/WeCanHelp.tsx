@@ -26,7 +26,7 @@ export default function WeCanHelp() {
           alt="Digital Radiography"
           width={60}
           height={60}
-          className="w-[60px] h-[60px]"
+          className="w-[60px] h-[60px] opacity-70"
         />
       ),
     },
@@ -104,18 +104,22 @@ export default function WeCanHelp() {
           </Stagger>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
           <Stagger>
             {services.map((item, i) => (
               <Reveal key={i} y={16} opacityFrom={0}>
-                <div className="rounded-xl p-6 border bg-white text-black hover:shadow-md hover:bg-[#323232] hover:text-white transition group hover:border-none">
-                  <div className="flex flex-col gap-4">
-                    <div className="text-3xl">{item.icon}</div>
-                    <div>
-                      <h3 className="text-lg font-semibold">{item.title}</h3>
-                      <p className="mt-2 text-sm">{item.desc}</p>
+                <div className="h-full">
+                  <div className="flex flex-col justify-between h-full rounded-xl p-6 duration-300  bg-white text-black hover:shadow-md hover:bg-[#323232] hover:text-white transition group hover:border-none">
+                    <div className="flex flex-col gap-4">
+                      <div className="text-3xl transition duration-300 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
+                        {item.icon}
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold">{item.title}</h3>
+                        <p className="mt-2 text-sm">{item.desc}</p>
+                      </div>
                     </div>
-                    <button className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white group-hover:bg-prestige-yellow w-fit">
+                    <button className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white duration-300 group-hover:bg-prestige-yellow w-fit">
                       Learn More
                     </button>
                   </div>
