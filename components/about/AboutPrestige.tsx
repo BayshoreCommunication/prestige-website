@@ -53,43 +53,39 @@ export default function AboutPrestige() {
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-4 font-montserrat">
-                At Prestige, we recognize that auto accident injuries bring significant stress to you and your loved ones. Our multidisciplinary team—comprising Board-Certified Medical Doctors (M.D.s), Doctors of Osteopathic Medicine (D.O.s), and Chiropractors (D.C.s)—collaborates closely to design a personalized treatment plan tailored precisely to your unique injury and recovery needs.
+                At Prestige Medical & Physical Therapy, we believe that every patient deserves personalized, compassionate care. Our dedicated team has helped thousands of patients recover from auto accidents and injury-related conditions, guiding them back to a healthy, active life. Our mission is to provide a seamless, patient-centered experience, combining the latest medical techniques with hands-on physical therapy to restore mobility, reduce pain, and improve overall quality of life.
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                Auto accidents often result in back or neck pain, numbness in the arms or legs, joint or muscle discomfort, as well as stress, anxiety, and headaches. At Prestige, our thorough medical evaluations and personalized consultations allow us to accurately diagnose and effectively treat these conditions. We also collaborate closely with primary care physicians throughout the Tampa Bay area to ensure comprehensive, coordinated care.
+                Our clinic is a multi-disciplinary center, bringing together board-certified medical doctors, licensed chiropractors, and certified physical therapists. This collaborative approach ensures that every patient receives a customized treatment plan tailored to their specific needs. Whether it’s acute pain relief, rehabilitation after an accident, or long-term injury management, we focus on treating the whole person, not just the symptoms.
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                At Prestige, we recognize that auto accident injuries bring significant stress to you and your loved ones. Our multidisciplinary team—comprising Board-Certified Medical Doctors (M.D.s), Doctors of Osteopathic Medicine (D.O.s), and Chiropractors (D.C.s)—collaborates closely to design a personalized treatment plan tailored precisely to your unique injury and recovery needs.
+                We specialize in addressing conditions such as neck and back pain, joint discomfort, muscle soreness, numbness, headaches, and injuries caused by auto accidents, work incidents, or sports-related trauma. By combining medical evaluation, physical therapy, chiropractic care, and advanced therapeutic technologies, we help patients recover faster, safely, and effectively.
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                Auto accidents often result in back or neck pain, numbness in the arms or legs, joint or muscle discomfort, as well as stress, anxiety, and headaches. At Prestige, our thorough medical evaluations and personalized consultations allow us to accurately diagnose and effectively treat these conditions. We also collaborate closely with primary care physicians throughout the Tampa Bay area to ensure comprehensive, coordinated care.
+                At Prestige, we also understand that dealing with injuries can be stressful, both physically and financially. That’s why we offer support with Florida PIP insurance claims, same-day appointments, and walk-in availability, making it easier for patients to focus on healing. Our team is committed to creating a welcoming, supportive environment where every patient feels understood, valued, and empowered to take an active role in their recovery.
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                Auto accidents often result in back or neck pain, numbness in the arms or legs, joint or muscle discomfort, as well as stress, anxiety, and headaches. At Prestige, our thorough medical evaluations and personalized consultations allow us to accurately diagnose and effectively treat these conditions. We also collaborate closely with primary care physicians throughout the Tampa Bay area to ensure comprehensive, coordinated care.
+                Your health, mobility, and well-being are our top priorities. At Prestige Medical & Physical Therapy, we don’t just treat injuries — we help patients reclaim their lives and return to the activities they love with confidence and strength. Your healing journey starts here, and we are dedicated to being your trusted partner every step of the way.
                 </p>
               </Reveal>
               
             </Stagger>
-          </div>
-        </div>
-        <Reveal tag="p" y={12} opacityFrom={0.1}>
-                <p className="text-gray-300 mb-6 font-montserrat">
-                Auto accidents often result in back or neck pain, numbness in the arms or legs, joint or muscle discomfort, as well as stress, anxiety, and headaches. At Prestige, our thorough medical evaluations and personalized consultations allow us to accurately diagnose and effectively treat these conditions. We also collaborate closely with primary care physicians throughout the Tampa Bay area to ensure comprehensive, coordinated care.
-                </p>
-              </Reveal>
-              <Reveal y={10} opacityFrom={0}>
+            <Reveal y={10} opacityFrom={0}>
                 <button className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition">
                 Request Appointment
                 </button>
               </Reveal>
+          </div>
+        </div>
+              
       </section>
     </section>
   );

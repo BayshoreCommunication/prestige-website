@@ -80,16 +80,16 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Emergency Call Button - Desktop */}
-            <div className="hidden lg:flex">
-              <Link
-                href="/emergency"
-                className="bg-prestige-yellow text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2"
-              >
-                <Phone className="w-4 h-4" />
-                <span>Emergency Call</span>
-              </Link>
-            </div>
+          {/* Emergency Call Button - Desktop */}
+          <div className="hidden lg:flex">
+            <a
+              href="tel:+18132432500"
+              className="bg-prestige-yellow text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2"
+            >
+              <Phone className="w-4 h-4" />
+              <span>Emergency Call</span>
+            </a>
+          </div>
 
             {/* Mobile menu button */}
             <div className="lg:hidden flex items-center">
@@ -126,14 +126,14 @@ const Navbar = () => {
                   </Link>
                 ))}
 
-                <Link
-                  href="/emergency"
+                <a
+                  href="tel:+18132432500"
                   className=" bg-prestige-yellow text-black px-3 py-2 rounded-md font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2 mt-4"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <Phone className="w-4 h-4" />
                   <span>Emergency Call</span>
-                </Link>
+                </a>
               </div>
             </div>
           )}
