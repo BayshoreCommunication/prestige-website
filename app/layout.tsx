@@ -45,6 +45,7 @@ export const metadata: Metadata = {
       "en-US": "/en-US",
     },
   },
+
   openGraph: {
     title: "PRESTIGE Medical & Physical Therapy",
     description:
