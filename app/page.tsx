@@ -10,7 +10,7 @@ import WhyChoose from "@/components/home/WhyChoose";
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <HomeSection />
       <About />
       <Stats />
@@ -20,6 +20,6 @@ export default function Home() {
       <OurTechnologies />
       <Blogs />
       <SimpleMap />
-    </>
+    </div>
   );
 }

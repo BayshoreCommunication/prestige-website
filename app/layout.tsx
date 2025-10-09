@@ -29,16 +29,11 @@ const sansation = localFont({
   variable: "--font-sansation",
 });
 
+
 export const metadata: Metadata = {
   title: "PRESTIGE Medical & Physical Therapy",
-  description:
-    "Professional medical and physical therapy services with advanced treatment options and personalized care.",
-  // metadataBase: new URL("https://prestigemedical.com"),
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
+  description: "Professional medical and physical therapy services with advanced treatment options and personalized care.",
+  metadataBase: new URL("https://prestige-website-beta.vercel.app"),
   alternates: {
     canonical: "/",
     languages: {
@@ -46,11 +41,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "PRESTIGE Medical & Physical Therapy",
-    description:
-      "Professional medical and physical therapy services with advanced treatment options and personalized care.",
     images: "/opengraph-image.png",
-    type: "website",
   },
 };
 

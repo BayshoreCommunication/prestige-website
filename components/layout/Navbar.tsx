@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black text-white relative z-50">
+    <nav className="bg-black text-white  z-50 ">
       <div className="max-w-[1640px] mx-auto px-8 md:py-4 py-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -110,7 +110,7 @@ const Navbar = () => {
               {/* Emergency Call Button - Mobile */}
               <Link
                 href="/emergency"
-                className="block bg-prestige-yellow text-black px-3 py-2 rounded-md font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2 mt-4"
+                className="bg-prestige-yellow text-black px-3 py-2 rounded-md font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2 mt-4"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <Phone className="w-4 h-4" />
