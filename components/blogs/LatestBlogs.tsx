@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const blogs = [
   {
-    slug: "digital-radiography",
+    slug: "brand-positioning-what-space-will-you-own-in-your-customers-mind-during-your-business-transformation", //digital-radiography
     title: "Digital Radiography is Good for Health",
     desc: "Experience compassionate care tailored to your needs. Our team is dedicated to providing effective treatment in a caring environment.",
     image: "/images/blogspage/latestblogs/img1.png",
@@ -140,9 +140,7 @@ export default function BlogPage() {
         <div className="flex justify-center mt-12 space-x-2">
           {/* Prev Button */}
           <button
-            onClick={() =>
-              setCurrentPage((prev) => Math.max(prev - 1, 1))
-            }
+            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
             disabled={currentPage === 1}
             className={`px-3 py-1 rounded-md border border-gray-600 text-sm transition ${
               currentPage === 1
@@ -171,9 +169,7 @@ export default function BlogPage() {
           {/* Next Button */}
           <button
             onClick={() =>
-              setCurrentPage((prev) =>
-                Math.min(prev + 1, totalPages)
-              )
+              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
             }
             disabled={currentPage === totalPages}
             className={`px-3 py-1 rounded-md border border-gray-600 text-sm transition ${
