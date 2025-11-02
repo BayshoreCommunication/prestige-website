@@ -14,7 +14,7 @@ const serviceData: Record<
   "physio-therapy": {
     title: "Physio Therapy",
     desc: "Personalized Treatment That Restores Strength, Mobility, and Confidence",
-    image: "/images/canhelp/img1.png",
+    image: "/images/canhelp/img11.png",
     content: `
       <p>Personalized Treatment That Restores Strength, Mobility, and Confidence </br>
 
@@ -72,7 +72,7 @@ If pain or limited mobility is holding you back, our physiotherapy team is ready
   "digital-radiography": {
     title: "Digital Radiography",
     desc: "Accurate Imaging for Faster, Smarter Diagnosis",
-    image: "/images/canhelp/img2.png",
+    image: "/images/canhelp/img22.png",
     content: `
       <p>At <strong>Prestige Medical & Physical Therapy</strong>, precision is at the heart of everything we do. Our <strong>digital radiography (X-ray)</strong> technology allows our medical team to capture clear, high-resolution images of bones and soft tissues — instantly and safely.</br>
 Whether you’ve been involved in an <strong>auto accident</strong>, suffered a <strong>sports injury</strong>, or are experiencing <strong>chronic pain</strong>, our digital X-rays provide the insight needed to create a personalized treatment plan that targets the root cause of your discomfort.</br>
@@ -137,7 +137,7 @@ At Prestige, our goal is to make diagnosis and recovery as efficient as possible
   "individual-treatment-plans": {
     title: "Individual Treatment Plans",
     desc: "Care Designed Around You",
-    image: "/images/canhelp/img3.png",
+    image: "/images/canhelp/img33.png",
     content: `
       <p>At <strong>Prestige Medical & Physical Therapy</strong>, we believe that no two patients are the same — and neither are their injuries. Every recovery journey begins with a personalized treatment plan designed specifically for your body, your condition, and your goals.</br>
 Our multidisciplinary team of medical doctors, chiropractors, and physical therapists works together to assess your injuries, identify the underlying causes, and build a plan that delivers long-term relief — not just temporary fixes.</br>
@@ -192,7 +192,7 @@ At Prestige, we don’t believe in one-size-fits-all care. We believe in your pl
   "injury-rehabilitation": {
     title: "Injury Rehabilitation",
     desc: "Recover Stronger. Move Better. Live Pain-Free.",
-    image: "/images/canhelp/img4.png",
+    image: "/images/canhelp/img44.png",
     content: `
       <p>At <strong>Prestige Medical & Physical Therapy</strong>, our goal is simple — to help you recover fully and return to your daily life with confidence. Whether you’ve been injured in an auto accident, suffered a sports injury, or are dealing with chronic pain, our injury rehabilitation programs are designed to restore your mobility, strength, and overall well-being.
 Our team of medical doctors, physical therapists, and chiropractors work together to create a personalized recovery plan that addresses both your symptoms and their root causes.
@@ -259,7 +259,7 @@ At Prestige, recovery isn’t just about healing an injury — it’s about gett
   "constant-neck-and-back-pain": {
     title: "Constant Neck and Back Pain",
     desc: "Align Your Spine. Restore Your Health.",
-    image: "/images/canhelp/img6.png",
+    image: "/images/canhelp/img55.png",
     content: `
         <p>
         At Prestige Medical & Physical Therapy, our chiropractic care is designed to relieve pain, improve mobility, and support overall wellness. Our licensed chiropractors provide safe, effective, and personalized spinal adjustments to help you recover from injuries, reduce discomfort, and regain proper body alignment.<br/>
@@ -386,7 +386,7 @@ export default function ServiceDetail({
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
           <div className="lg:col-span-2">
-            {/* <div className="mb-8">
+            <div className="mb-8">
               <Image
                 src={service.image}
                 alt={service.title}
@@ -394,7 +394,7 @@ export default function ServiceDetail({
                 height={400}
                 className="w-full h-auto rounded-xl"
               />
-            </div> */}
+            </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 mb-6 italic font-bold">

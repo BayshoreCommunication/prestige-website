@@ -10,7 +10,7 @@ export default function Blogs() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="images/blogspage/blogs/bg.png"
+          src="/images/blogspage/blogs/bg.png"
           alt="Blogs page Background"
           width={1000}
           height={800}
@@ -22,8 +22,8 @@ export default function Blogs() {
 
       {/* Overlay Content */}
       <div className="relative z-20 flex flex-col justify-center items-start min-h-[300px] md:min-h-[400px] text-white space-y-4 max-w-[1640px] mx-auto">
-      <Reveal y={20} opacityFrom={0}>
-        <h1 className="text-3xl md:text-5xl font-bold text-black">Blogs</h1>
+        <Reveal y={20} opacityFrom={0}>
+          <h1 className="text-3xl md:text-5xl font-bold text-black">Blogs</h1>
         </Reveal>
         <div className="flex items-center space-x-2 bg-prestige-yellow px-3 py-1 rounded-full">
           <Link
@@ -44,4 +44,3 @@ export default function Blogs() {
     </section>
   );
 }
-
