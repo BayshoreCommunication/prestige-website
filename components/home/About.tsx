@@ -3,6 +3,7 @@
 import Reveal from "@/components/motion/Reveal";
 import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -73,9 +74,12 @@ export default function About() {
                 </p>
               </Reveal>
               <Reveal y={10} opacityFrom={0}>
-                <button className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition">
+                <Link
+                  href="/about"
+                  className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition"
+                >
                   Discover More
-                </button>
+                </Link>
               </Reveal>
             </Stagger>
           </div>

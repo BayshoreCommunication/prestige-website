@@ -61,7 +61,7 @@ export default function HomeSection() {
                     Request Appointment
                   </Link>
 
-                  <div className="flex items-center gap-2 cursor-pointer" onClick={openVideo}>
+                  {/* <div className="flex items-center gap-2 cursor-pointer" onClick={openVideo}>
                     <div className="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ export default function HomeSection() {
                     <span className="text-gray-800 font-medium">
                       Watch Video
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </Reveal>
             </Stagger>
@@ -126,9 +126,13 @@ export default function HomeSection() {
               <option>Consultation</option>
               <option>Follow-up</option>
             </select>
-            <button className="bg-prestige-yellow text-sm text-black font-semibold px-6 py-2 rounded hover:bg-yellow-500 transition">
-              Book Now
-            </button>
+            <Link
+              href="/contact"
+              className="bg-prestige-yellow text-sm text-black font-semibold px-6 py-2 rounded hover:bg-yellow-500 transition"
+              >
+                Book Now
+              </Link>
+            
           </div>
         </div>
       </div>

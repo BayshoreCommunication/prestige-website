@@ -1,11 +1,13 @@
 import Reveal from "@/components/motion/Reveal";
 import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WeCanHelp() {
   const services = [
     {
       title: "Physio Therapy",
+      slug: "physio-therapy",
       desc: "We focus on auto accident care and treatment options that will help ease your pain and deal with life after an auto accident.",
       icon: (
         <Image
@@ -19,6 +21,7 @@ export default function WeCanHelp() {
     },
     {
       title: "Digital Radiography",
+      slug: "digital-radiography",
       desc: "Our physicians will diagnose and evaluate your injury or condition to determine the type of treatment that is most appropriate.",
       icon: (
         <Image
@@ -32,7 +35,8 @@ export default function WeCanHelp() {
     },
     {
       title: "Individual Treatment Plans",
-      desc: "Trauma associated with auto injuries can take days or weeks to manifest, that’s why it’s important to get treatment ASAP!",
+      slug: "individual-treatment-plans",
+      desc: "Trauma associated with auto injuries can take days or weeks to manifest, that's why it's important to get treatment ASAP!",
       icon: (
         <Image
           src="/images/canhelp/img3.png"
@@ -45,6 +49,7 @@ export default function WeCanHelp() {
     },
     {
       title: "Injury Rehabilitation",
+      slug: "injury-rehabilitation",
       desc: "Our exercise and stretching routines will build flexibility and strength, so you can fully restore your maximum range of motion and independence.",
       icon: (
         <Image
@@ -56,21 +61,23 @@ export default function WeCanHelp() {
         />
       ),
     },
-    {
-      title: "Physical Therapy",
-      desc: "Hydrotherapy uses the combination of water, heat and massage to provide a comforting and relaxing experience, relieving pain.",
-      icon: (
-        <Image
-          src="/images/canhelp/img5.png"
-          alt="Physical Therapy"
-          width={60}
-          height={60}
-          className="w-[60px] h-[60px]"
-        />
-      ),
-    },
+    // {
+    //   title: "Physical Therapy",
+    //   slug: "physical-therapy",
+    //   desc: "Hydrotherapy uses the combination of water, heat and massage to provide a comforting and relaxing experience, relieving pain.",
+    //   icon: (
+    //     <Image
+    //       src="/images/canhelp/img5.png"
+    //       alt="Physical Therapy"
+    //       width={60}
+    //       height={60}
+    //       className="w-[60px] h-[60px]"
+    //     />
+    //   ),
+    // },
     {
       title: "Constant neck and back pain?",
+      slug: "constant-neck-and-back-pain",
       desc: "Chiropractic adjustments relieve pressure on the nerves and muscles, and treat the underlying spinal or whiplash injury.",
       icon: (
         <Image
@@ -119,9 +126,12 @@ export default function WeCanHelp() {
                         <p className="mt-2 text-sm">{item.desc}</p>
                       </div>
                     </div>
-                    <button className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white group-hover:bg-prestige-yellow duration-300 w-fit">
+                    <Link
+                      href={`/services/${item.slug}`}
+                      className="mt-4 px-4 py-2 rounded-full text-sm font-medium bg-black text-white group-hover:bg-prestige-yellow duration-300 w-fit inline-block"
+                    >
                       Learn More
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </Reveal>

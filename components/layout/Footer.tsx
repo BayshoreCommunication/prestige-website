@@ -70,11 +70,11 @@ export default function Footer() {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="testimonials" className="hover:text-prestige-yellow">
                   Testimonials
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/blogs" className="hover:text-prestige-yellow">
                   Blogs

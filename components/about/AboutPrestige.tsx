@@ -3,6 +3,7 @@
 import Reveal from "@/components/motion/Reveal";
 import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutPrestige() {
   return (
@@ -79,9 +80,12 @@ export default function AboutPrestige() {
               
             </Stagger>
             <Reveal y={10} opacityFrom={0}>
-                <button className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition">
-                Request Appointment
-                </button>
+                <Link
+                  href="/contact"
+                  className="bg-prestige-yellow text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-500 transition"
+                >
+                  Request Appointment
+                </Link>
               </Reveal>
           </div>
         </div>

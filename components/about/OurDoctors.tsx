@@ -7,10 +7,12 @@ import Stagger from "@/components/motion/Stagger";
 
 // Example doctor data — replace images and info as needed
 const doctors = [
+
+  // Doctor 1
   {
-    name: "Barry Rubin",
-    role: "Home Care Physician",
-    img: "/images/aboutpage/ourdoctors/doc1.png",
+    name: "Alisha Churchill, DPT",
+    role: "Physical Therapist",
+    img: "/images/aboutpage/ourdoctors/alisha.png",
     social: {
       instagram: "#",
       youtube: "#",
@@ -18,9 +20,11 @@ const doctors = [
       twitter: "#",
     },
   },
+
+  // Doctor 2
   {
-    name: "James Hildebrand",
-    role: "Pediatric Dentist",
+    name: "Hector Sanchez Pereira",
+    role: "Nurse Practitioner",
     img: "/images/aboutpage/ourdoctors/doc2.png",
     social: {
       instagram: "#",
@@ -29,9 +33,11 @@ const doctors = [
       twitter: "#",
     },
   },
+
+  // Doctor 3
   {
-    name: "John Johnson Jr",
-    role: "Clinical Laboratory Scientist",
+    name: "Dr. Ernest D Buzzella, DC",
+    role: "Chiropractor",
     img: "/images/aboutpage/ourdoctors/doc3.png",
     social: {
       instagram: "#",
@@ -40,61 +46,71 @@ const doctors = [
       twitter: "#",
     },
   },
-  {
-    name: "Craig Horner",
-    role: "Medical Transport Nurse",
-    img: "/images/aboutpage/ourdoctors/doc4.png",
-    social: {
-      instagram: "#",
-      youtube: "#",
-      facebook: "#",
-      twitter: "#",
-    },
-  },
-  {
-    name: "Elliott Weinger",
-    role: "Oral Surgeon",
-    img: "/images/aboutpage/ourdoctors/doc5.png",
-    social: {
-      instagram: "#",
-      youtube: "#",
-      facebook: "#",
-      twitter: "#",
-    },
-  },
-  {
-    name: "Charles Mael",
-    role: "Family Medicine Physician",
-    img: "/images/aboutpage/ourdoctors/doc6.png",
-    social: {
-      instagram: "#",
-      youtube: "#",
-      facebook: "#",
-      twitter: "#",
-    },
-  },
-  {
-    name: "Anthony Spataro",
-    role: "Diagnostic Medical Sonographer",
-    img: "/images/aboutpage/ourdoctors/doc7.png",
-    social: {
-      instagram: "#",
-      youtube: "#",
-      facebook: "#",
-      twitter: "#",
-    },
-  },
-  {
-    name: "Barry Kraushaar",
-    role: "Medical Transport Coordinator",
-    img: "/images/aboutpage/ourdoctors/doc8.png",
-    social: {
-      instagram: "#",
-      youtube: "#",
-      facebook: "#",
-      twitter: "#",
-    },
-  },
+
+  // // Doctor 4
+  // {
+  //   name: "Craig Horner",
+  //   role: "Medical Transport Nurse",
+  //   img: "/images/aboutpage/ourdoctors/doc4.png",
+  //   social: {
+  //     instagram: "#",
+  //     youtube: "#",
+  //     facebook: "#",
+  //     twitter: "#",
+  //   },
+  // },
+
+  // // Doctor 5
+  // {
+  //   name: "Elliott Weinger",
+  //   role: "Oral Surgeon",
+  //   img: "/images/aboutpage/ourdoctors/doc5.png",
+  //   social: {
+  //     instagram: "#",
+  //     youtube: "#",
+  //     facebook: "#",
+  //     twitter: "#",
+  //   },
+  // },
+
+  // // Doctor 6
+  // {
+  //   name: "Charles Mael",
+  //   role: "Family Medicine Physician",
+  //   img: "/images/aboutpage/ourdoctors/doc6.png",
+  //   social: {
+  //     instagram: "#",
+  //     youtube: "#",
+  //     facebook: "#",
+  //     twitter: "#",
+  //   },
+  // },
+
+  // // Doctor 7
+  // {
+  //   name: "Anthony Spataro",
+  //   role: "Diagnostic Medical Sonographer",
+  //   img: "/images/aboutpage/ourdoctors/doc7.png",
+  //   social: {
+  //     instagram: "#",
+  //     youtube: "#",
+  //     facebook: "#",
+  //     twitter: "#",
+  //   },
+  // },
+
+  // // Doctor 8
+  // {
+  //   name: "Barry Kraushaar",
+  //   role: "Medical Transport Coordinator",
+  //   img: "/images/aboutpage/ourdoctors/doc8.png",
+  //   social: {
+  //     instagram: "#",
+  //     youtube: "#",
+  //     facebook: "#",
+  //     twitter: "#",
+  //   },
+  // },
 ];
 
 export default function OurDoctors() {
@@ -114,7 +130,7 @@ export default function OurDoctors() {
       </div>
 
       {/* Doctor Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-8">
         {doctors.map((doc, i) => (
           <div
             key={i}
@@ -137,7 +153,7 @@ export default function OurDoctors() {
               <p className="text-gray-400 text-sm mb-4">{doc.role}</p>
 
               {/* Social Links */}
-              <div className="flex space-x-4 text-gray-400">
+              {/* <div className="flex space-x-4 text-gray-400">
                 <Link
                   href={doc.social.instagram}
                   className="hover:text-prestige-yellow transition"
@@ -166,7 +182,7 @@ export default function OurDoctors() {
                 >
                   <FaTwitter />
                 </Link>
-              </div>
+              </div> */}
             </div>
             </Reveal>
           </div>

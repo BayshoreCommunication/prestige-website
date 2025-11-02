@@ -37,60 +37,68 @@ export default function Stats() {
   return (
     <section className="bg-[#151515]">
       <div className="max-w-[1640px] mx-auto px-8 md:py-16 py-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
           <Stagger>
             {/* Card 1 */}
             <Reveal y={16} opacityFrom={0}>
-              <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-                <FaCalendarAlt className="text-prestige-yellow text-4xl" />
-                <div>
-                  <h3 className="text-prestige-yellow text-2xl font-bold">
-                    {years}+
-                  </h3>
-                  <p className="text-gray-300 text-sm">
-                    Combined Excellency of Years
-                  </p>
+              <div className="h-full">
+                <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4 h-full min-h-[140px]">
+                  <FaCalendarAlt className="text-prestige-yellow text-4xl flex-shrink-0" />
+                  <div>
+                    <h3 className="text-prestige-yellow text-2xl font-bold">
+                      {years}+
+                    </h3>
+                    <p className="text-gray-300 text-sm">
+                      Combined Excellency of Years
+                    </p>
+                  </div>
                 </div>
               </div>
             </Reveal>
 
             {/* Card 2 */}
             <Reveal y={16} opacityFrom={0}>
-              <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-                <FaBriefcaseMedical className="text-prestige-yellow text-4xl" />
-                <div>
-                  <h3 className="text-prestige-yellow text-2xl font-bold">
-                    {satisfaction}%
-                  </h3>
-                  <p className="text-gray-300 text-sm">Satisfaction</p>
+              <div className="h-full">
+                <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4 h-full min-h-[140px]">
+                  <FaBriefcaseMedical className="text-prestige-yellow text-4xl flex-shrink-0" />
+                  <div>
+                    <h3 className="text-prestige-yellow text-2xl font-bold">
+                      {satisfaction}%
+                    </h3>
+                    <p className="text-gray-300 text-sm">Satisfaction</p>
+                  </div>
                 </div>
               </div>
             </Reveal>
 
             {/* Card 3 */}
             <Reveal y={16} opacityFrom={0}>
-              <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-                <MdMedicalServices className="text-prestige-yellow text-4xl" />
-                <div>
-                  <h3 className="text-prestige-yellow text-2xl font-bold">
-                    {technologies}+
-                  </h3>
-                  <p className="text-gray-300 text-sm">
-                    Technologies Available
-                  </p>
+              <div className="h-full">
+                <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4 h-full min-h-[140px]">
+                  <MdMedicalServices className="text-prestige-yellow text-4xl flex-shrink-0" />
+                  <div>
+                    <h3 className="text-prestige-yellow text-2xl font-bold">
+                      {technologies}+
+                    </h3>
+                    <p className="text-gray-300 text-sm">
+                      Technologies Available
+                    </p>
+                  </div>
                 </div>
               </div>
             </Reveal>
 
             {/* Card 4 */}
             <Reveal y={16} opacityFrom={0}>
-              <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4">
-                <FaHeadset className="text-prestige-yellow text-4xl" />
-                <div>
-                  <h3 className="text-prestige-yellow text-2xl font-bold">
-                    {availability}/7
-                  </h3>
-                  <p className="text-gray-300 text-sm">Availability</p>
+              <div className="h-full">
+                <div className="bg-[#1e1e1e] rounded-xl p-8 flex items-center gap-4 h-full min-h-[140px]">
+                  <FaHeadset className="text-prestige-yellow text-4xl flex-shrink-0" />
+                  <div>
+                    <h3 className="text-prestige-yellow text-2xl font-bold">
+                      {availability}/7
+                    </h3>
+                    <p className="text-gray-300 text-sm">Availability</p>
+                  </div>
                 </div>
               </div>
             </Reveal>
