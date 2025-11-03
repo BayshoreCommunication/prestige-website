@@ -44,7 +44,7 @@ export default function HomeSection() {
                 </h1>
               </Reveal>
               <Reveal tag="p" y={14} opacityFrom={0.06}>
-                <p className="mt-6 text-gray-700 text-base md:text-lg sm:max-w-xl">
+                <p className="mt-6 text-black text-base md:text-lg sm:max-w-xl">
                   We have specialized in treating the victims of auto accidents. Let our team of dedicated medical professionals
                   help you find relief from your pain and suffering.
                 </p>

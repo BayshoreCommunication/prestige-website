@@ -36,7 +36,7 @@ Our Physiotherapy Services Include</br>
 
 <li><strong>Spinal and Posture Correction : </strong> Techniques to realign your body, improve mobility, and prevent future injuries. </li></br>                                                                    
 
-<strong>Why Choose Prestige for Physio Therapy </strong></br>                                                                                                                         
+<strong>Why Choose Prestige for Physio Therapy </strong></br> </br>                                                                                                                        
 
 <li><strong>Comprehensive, Doctor-Guided Care :</strong> Our physiotherapists work directly with medical doctors, chiropractors, and rehabilitation specialists.</li>                                                                                                                                 
 
@@ -46,7 +46,7 @@ Our Physiotherapy Services Include</br>
 
 <li><strong>Same-Day Appointments & No Upfront Costs :</strong> Get the care you need  when you need it most.</li></br>                                                                                                                                                                                       
 
-<strong>Common Conditions We Treat</strong></br>                                                                                                                                                                                                                                                         
+<strong>Common Conditions We Treat</strong></br> </br>                                                                                                                                                                                                                                                         
 
 <li>Whiplash & Auto Accident Injuries</li>                                                                                                                                                                                                                                                  
 
@@ -63,7 +63,7 @@ Our Physiotherapy Services Include</br>
 <li>Regain Your Mobility  and Your Life</li></br>                                                                                                                                                                                                                                                                               
 
 At Prestige, our mission is simple: to help you move better, feel stronger, and live pain-free.</br>                                                                                                                                                                                                                                                                                               
-If pain or limited mobility is holding you back, our physiotherapy team is ready to help you take the next step toward full recovery.</br>                                                                                                                                                                                                                                                                           
+If pain or limited mobility is holding you back, our physiotherapy team is ready to help you take the next step toward full recovery.</br></br>                                                                                                                                                                                                                                                                           
 
 📞 Call (813) 243-2500 or book your appointment online today to start your personalized physiotherapy program.</br>                                                                                                                                                                                                                                                                                           
 </p>
@@ -75,13 +75,13 @@ If pain or limited mobility is holding you back, our physiotherapy team is ready
     image: "/images/canhelp/img22.png",
     content: `
       <p>At <strong>Prestige Medical & Physical Therapy</strong>, precision is at the heart of everything we do. Our digital radiography (X-ray) technology allows our medical team to capture clear, high-resolution images of bones and soft tissues  instantly and safely.</br>
-Whether you’ve been involved in an auto accident, suffered a sports injury, or are experiencing chronic pain, our digital X-rays provide the insight needed to create a personalized treatment plan that targets the root cause of your discomfort.</br>
+Whether you’ve been involved in an auto accident, suffered a sports injury, or are experiencing chronic pain  , our digital X-rays provide the insight needed to create a personalized treatment plan that targets the root cause of your discomfort.</br></br>
 
-<strong>What Is Digital Radiography?</strong></br>
+<strong>What Is Digital Radiography?</strong></br></br>
 Digital radiography is the modern evolution of traditional X-rays.</br>                     
  Instead of using film, we capture images electronically  allowing for faster results, greater accuracy, and lower radiation exposure. The images can be instantly viewed, shared, and enhanced for precise analysis.</br>
 
-<ul><strong>Benefits of Digital Radiography</strong></br>           
+<ul><strong>Benefits of Digital Radiography</strong></br>  </br>         
 <li><strong>Immediate Results :</strong> Images appear instantly on-screen for same-day diagnosis.</li>
 
 
@@ -98,8 +98,8 @@ Digital radiography is the modern evolution of traditional X-rays.</br>
 
 
 
-<ul><strong>When Digital X-Rays Are Recommended</strong></br>
-Our physicians may order digital X-rays to:</br>
+<ul><strong>When Digital X-Rays Are Recommended</strong></br></br>
+Our physicians may order digital X-rays to:</br></br>
 <li>Evaluate injuries from auto accidents or falls</li>
 
 
@@ -116,17 +116,17 @@ Our physicians may order digital X-rays to:</br>
 
 
 
-<strong>Why Choose Prestige</strong></br>
+<strong>Why Choose Prestige</strong></br></br>
 <li><strong>On-Site Digital Imaging :</strong> No need to visit another facility  we perform all imaging in-house.</li>
 
 
 <li><strong>Doctor-Led Analysis :</strong> Results are reviewed by licensed physicians and integrated directly into your treatment plan.</li></br>
 
-<strong>Seamless Care Coordination :</strong> Our medical, chiropractic, and physiotherapy teams collaborate using the same imaging data for optimal outcomes.</br>
+<strong>Seamless Care Coordination :</strong> Our medical, chiropractic, and physiotherapy teams collaborate using the same imaging data for optimal outcomes.</br></br>
 
-<strong>Fast. Safe. Accurate.</strong></br>
+<strong>Fast. Safe. Accurate.</strong></br></br>
 At Prestige, our goal is to make diagnosis and recovery as efficient as possible.</br>
- With advanced digital radiography, we help you get clear answers  and the right treatment  without delay.</br>                               
+ With advanced digital radiography, we help you get clear answers  and the right treatment  without delay.</br> </br>                             
 📞 Call (813) 243-2500 or schedule an appointment online to get your digital X-ray today.</br>
 </p>
     `,
@@ -137,9 +137,9 @@ At Prestige, our goal is to make diagnosis and recovery as efficient as possible
     image: "/images/canhelp/img33.png",
     content: `
       <p>At <strong>Prestige Medical & Physical Therapy</strong>, we believe that no two patients are the same  and neither are their injuries. Every recovery journey begins with a personalized treatment plan designed specifically for your body, your condition, and your goals.</br>
-Our multidisciplinary team of medical doctors, chiropractors, and physical therapists works together to assess your injuries, identify the underlying causes, and build a plan that delivers long-term relief  not just temporary fixes.</br>
+Our multidisciplinary team of medical doctors, chiropractors, and physical therapists works together to assess your injuries, identify the underlying causes, and build a plan that delivers long-term relief  not just temporary fixes.</br></br>
 
-<strong>What an Individual Treatment Plan Includes</strong></br>
+<strong>What an Individual Treatment Plan Includes</strong></br></br>
 Each plan is custom-built after a thorough medical evaluation and digital imaging review. It may include:
 <li><strong>Physiotherapy & Rehabilitation Exercises :</strong> to restore mobility and strength</li>
 
@@ -157,7 +157,7 @@ Each plan is custom-built after a thorough medical evaluation and digital imagin
 
 
 
-<strong>Our Process</strong></br>           
+<strong>Our Process</strong></br>  </br>         
 <li><strong>Comprehensive Evaluation :</strong> We begin with a full medical assessment and digital radiography (X-ray) to identify the exact source of pain.</li>
 
 
@@ -168,7 +168,7 @@ Each plan is custom-built after a thorough medical evaluation and digital imagin
 
 
 
-<strong>Why Choose Prestige</strong></br>                               
+<strong>Why Choose Prestige</strong></br>  </br>                             
 <li><strong>Doctor-Guided Collaboration :</strong> Your care team communicates daily to ensure consistency and safety.</li>
 
 
@@ -179,8 +179,8 @@ Each plan is custom-built after a thorough medical evaluation and digital imagin
 
 
 
-<ul><strong>Your Recovery, Personalized</strong></br>
-At Prestige, we don’t believe in one-size-fits-all care. We believe in your plan  built for your body, your injury, and your future.</br>                              
+<ul><strong>Your Recovery, Personalized</strong></br></br>
+At Prestige, we don’t believe in one-size-fits-all care. We believe in your plan  built for your body, your injury, and your future.</br>  </br>                            
 📞 Call (813) 243-2500 or book your appointment online to start your individualized treatment plan today.</br>   
 </ul>
 </p>
@@ -194,8 +194,8 @@ At Prestige, we don’t believe in one-size-fits-all care. We believe in your pl
       <p>At <strong>Prestige Medical & Physical Therapy</strong>, our goal is simple  to help you recover fully and return to your daily life with confidence. Whether you’ve been injured in an auto accident, suffered a sports injury, or are dealing with chronic pain, our injury rehabilitation programs are designed to restore your mobility, strength, and overall well-being.
 Our team of medical doctors, physical therapists, and chiropractors work together to create a personalized recovery plan that addresses both your symptoms and their root causes.
 
-<ul><strong>What We Offer</strong></br>
-Our comprehensive rehabilitation approach includes:
+<ul><strong>What We Offer</strong></br></br>
+Our comprehensive rehabilitation approach includes:</br></br>
 <li><strong>Manual Therapy :</strong> Hands-on techniques to reduce stiffness, restore range of motion, and relieve pain.</li>
 
 
@@ -212,7 +212,7 @@ Our comprehensive rehabilitation approach includes:
 
 
 
-<strong>Common Injuries We Treat</strong></br>
+<strong>Common Injuries We Treat</strong></br></br>
 <li>uto Accident Injuries (Whiplash, Back & Neck Pain)</li>
 
 
@@ -232,7 +232,7 @@ Our comprehensive rehabilitation approach includes:
 
 
 
-<strong>Why Choose Prestige</strong></br>
+<strong>Why Choose Prestige</strong></br></br>
 <li><strong>Integrated Medical Team:</strong> Doctors, chiropractors, and physical therapists collaborate for complete care.</li>
 
 
@@ -246,8 +246,8 @@ Our comprehensive rehabilitation approach includes:
 
 
 
-<ul><strong>Rebuild. Restore. Renew.</strong></br>              
-At Prestige, recovery isn’t just about healing an injury  it’s about getting your life back. Our injury rehabilitation specialists are committed to helping you move freely, live pain-free, and stay strong for the future.</br>      
+<ul><strong>Rebuild. Restore. Renew.</strong></br> </br>             
+At Prestige, recovery isn’t just about healing an injury  it’s about getting your life back. Our injury rehabilitation specialists are committed to helping you move freely, live pain-free, and stay strong for the future.</br>   </br>   
 📞 Call (813) 243-2500 or book your appointment online to begin your recovery today.</br>
 </ul>
 </p>
@@ -275,7 +275,7 @@ Our Chiropractic Services Include<br/>
 
 <li><strong>Rehabilitation Exercises :</strong> Strengthen supporting muscles for lasting relief and better function.</li><br/>
 
-<strong>Why Choose Prestige for Chiropractic Care</strong><br/>
+<strong>Why Choose Prestige for Chiropractic Care</strong><br/><br/>
 
 <li><strong>Doctor-Guided Treatment :</strong> Chiropractors work closely with our medical team for safe, coordinated care.</li>
 
@@ -285,9 +285,9 @@ Our Chiropractic Services Include<br/>
 
 <li><strong>Same-Day Appointments & No Upfront Costs:</strong> Get the care you need without delays.</li><br/>          
 
-<strong>Start Your Recovery Today</strong></br>
+<strong>Start Your Recovery Today</strong></br><br/>
 
-<ul>Chiropractic care at Prestige isn’t just about easing pain  it’s about restoring balance, improving function, and helping you live comfortably again. </br>
+<ul>Chiropractic care at Prestige isn’t just about easing pain  it’s about restoring balance, improving function, and helping you live comfortably again. </br><br/>
 
 📞 Call (813) 243-2500 or book your appointment online to schedule your chiropractic consultation today.</br>
 </ul></br>
