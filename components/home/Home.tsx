@@ -45,8 +45,7 @@ export default function HomeSection() {
               </Reveal>
               <Reveal tag="p" y={14} opacityFrom={0.06}>
                 <p className="mt-6 text-gray-700 text-base md:text-lg sm:max-w-xl">
-                  We have specialized in treating the victims of auto accidents
-                  since 2001. Let our team of dedicated medical professionals
+                  We have specialized in treating the victims of auto accidents. Let our team of dedicated medical professionals
                   help you find relief from your pain and suffering.
                 </p>
               </Reveal>
