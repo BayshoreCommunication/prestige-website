@@ -70,3 +70,8 @@ body {
 .animate-slideDown {
   animation: slideDown 0.7s ease forwards;
 }
+/* .service-content li {
+  margin-left: 1rem; 
+  padding-left: 0.5rem;
+  list-style-position: outside;
+} */

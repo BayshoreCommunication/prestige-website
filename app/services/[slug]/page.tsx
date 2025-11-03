@@ -401,7 +401,7 @@ export default function ServiceDetail({
                 {service.desc}
               </p>
               <div
-                className="text-gray-700 leading-relaxed [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-[#1B2639] [&>h2]:mt-8 [&>h2]:mb-4 [&>p]:mb-4 [&>ul]:list-disc [&>ul]:ml-6 [&>ul]:mb-4 [&>li]:mb-2"
+                className="text-gray-700 leading-relaxed [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-[#1B2639] [&>h2]:mt-8 [&>h2]:mb-4 [&>p]:mb-4 [&_ul]:list-disc [&_ul]:list-inside [&_ul]:ml-0 [&_ul]:mb-4 [&_ul]:pl-0 [&_li]:mb-2 [&_li]:ml-0 [&>li]:list-disc [&>li]:list-inside [&>li]:ml-0 [&>li]:mb-2 [&>li]:pl-0"
                 dangerouslySetInnerHTML={{ __html: service.content }}
               />
             </div>
