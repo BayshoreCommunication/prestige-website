@@ -117,7 +117,7 @@ export default function ContactForm() {
                   </p>
                   <p className="text-gray-300">
                     (813) 243-2500 – Main <br />
-                    (813) 243-2502 – Fax
+                    {/* (813) 243-2502 – Fax */}
                   </p>
                 </div>
               </div>
@@ -137,14 +137,14 @@ export default function ContactForm() {
                   </p>
                   <p className="text-gray-300">prestigemedlmarketing@gmail.com</p>
                 </div>
-                <div>
+                {/* <div>
                   <p className="flex items-center gap-2 text-prestige-yellow font-medium">
                     <FaEnvelope /> Billing & Medical Records:
                   </p>
                   <p className="text-gray-300">
                     medicalrecords@hessspinalcenters.com
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </Reveal>
