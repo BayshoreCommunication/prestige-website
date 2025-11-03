@@ -135,7 +135,7 @@ export default function ContactForm() {
                   <p className="flex items-center gap-2 text-prestige-yellow font-medium">
                     <FaEnvelope /> Email:
                   </p>
-                  <p className="text-gray-300">info@hessspinalcenters.com</p>
+                  <p className="text-gray-300">prestigemedlmarketing@gmail.com</p>
                 </div>
                 <div>
                   <p className="flex items-center gap-2 text-prestige-yellow font-medium">
