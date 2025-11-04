@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
@@ -91,25 +92,25 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-3">Legal</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-prestige-yellow">
+                <Link href="/disclaimer" className="hover:text-prestige-yellow">
                   Disclaimers
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="#" className="hover:text-prestige-yellow">
+              {/* <li>
+                <Link href="#" className="hover:text-prestige-yellow">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-prestige-yellow">
+                <Link href="#" className="hover:text-prestige-yellow">
                   Terms of Service
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-prestige-yellow">
+                <Link href="#" className="hover:text-prestige-yellow">
                   Cookie Policy
-                </a>
-              </li>
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>
