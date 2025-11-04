@@ -96,8 +96,8 @@ export default function Footer() {
                   Disclaimers
                 </Link>
               </li>
-              {/* <li>
-                <Link href="#" className="hover:text-prestige-yellow">
+              <li>
+                <Link href="/privacy" className="hover:text-prestige-yellow">
                   Privacy Policy
                 </Link>
               </li>
@@ -110,7 +110,7 @@ export default function Footer() {
                 <Link href="#" className="hover:text-prestige-yellow">
                   Cookie Policy
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>
