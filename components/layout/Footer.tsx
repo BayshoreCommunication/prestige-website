@@ -129,10 +129,10 @@ export default function Footer() {
               <FaPhone className="text-prestige-yellow" />
               <span>(813) 243-2500</span>
             </li>
-            {/* <li className="flex items-center space-x-2">
+            <li className="flex items-center space-x-2">
               <FaFax className="text-prestige-yellow" />
               <span>(813) 243-2502</span>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
