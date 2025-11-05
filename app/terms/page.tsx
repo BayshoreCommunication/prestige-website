@@ -101,7 +101,7 @@ Do not attempt exercises, stretches, or rehabilitation techniques from this site
 `,
         },
         {
-          title: "12.Testimonials and Results",
+          title: "12. Testimonials and Results",
           text: `Patient testimonials and stories featured on this Website are personal experiences shared with permission. They represent individual outcomes and are not a promise or guarantee of results for all patients.</br></br>
 Your treatment results may differ due to various factors such as your condition, lifestyle, and commitment to your therapy plan.
 `,
