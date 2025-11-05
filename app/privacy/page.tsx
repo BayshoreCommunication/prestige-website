@@ -245,56 +245,86 @@ We are not responsible for the privacy practices, policies, or content of these 
 `,
         },
         {
-          title: "11. Copyright and Intellectual Property",
-          text: `All text, images, graphics, logos, videos, and other materials on this website are the property of Prestige Medical & Physical Therapy, unless otherwise noted. They are protected by copyright, trademark, and other intellectual property laws.</br></br>
-You may download or print portions of the site for personal, non-commercial use only. You may not modify, reproduce, distribute, transmit, or create derivative works from any part of the site without prior written permission.</br></br>
-Unauthorized use of the website’s materials may violate copyright and trademark laws and could result in legal consequences.
+          title: "11.Patient Health Information",
+          text: `If you become a patient of Prestige Medical & Physical Therapy, your medical and health-related information is governed by federal privacy laws such as <strong>HIPAA (Health Insurance Portability and Accountability Act)</strong> in the United States.</br></br>
+This Privacy Policy applies primarily to website visitors. A separate Notice of Privacy Practices is available at our clinic, which explains how we use and protect patient medical information as required by HIPAA regulations.
 `,
         },
         {
-          title: "12. User Responsibility",
-          text: `By using this website, you agree to use it responsibly and only for lawful purposes. You must not attempt to gain unauthorized access to the site, interfere with its functionality, or upload harmful code.</br></br>
-You are responsible for any consequences arising from your actions on this site, including reliance on information provided or content shared with others.
+          title: "12.Your Rights and Choices",
+          text: `You have several rights concerning your personal data, depending on your location and applicable law:</br></br>
+<ul class="list-disc pl-10">
+<li><strong>Right to access:</strong> You may request a copy of the personal data we hold about you.</li></br>
+
+
+<li><strong>Right to correction:</strong> You can ask us to update or correct inaccurate information.</li></br>
+
+
+<li><strong>Right to deletion:</strong> You may request that we delete your information, subject to legal obligations.</li></br>
+
+
+<li><strong>Right to withdraw consent:</strong> You may opt out of receiving marketing or communications at any time.</li></br>
+
+
+<li><strong>Right to restriction:</strong> You may request limited processing under certain conditions.</li></br>
+
+
+<li><strong>Right to portability:</strong> You can request a copy of your data in a structured, electronic format.</li></br>
+
+</ul>
+
+To exercise any of these rights, contact us using the information provided at the end of this policy. We may need to verify your identity before processing your request.
+
 `,
         },
         {
-          title: "13. No Substitute for In-Person Evaluation",
-          text: `Every patient’s medical condition is unique. Online educational resources cannot replace an in-person evaluation by a licensed physical therapist or physician. Even with similar symptoms, two individuals may require completely different treatments.</br></br>
-We encourage you to contact our clinic to schedule an evaluation for accurate assessment and a personalized care plan.
+          title: "13.Email Communications and Marketing",
+          text: `If you subscribe to our email list, we may send newsletters, updates, or promotions related to our services. You can opt out at any time by clicking the “unsubscribe” link at the bottom of any email or by contacting us directly.</br></br>
+We will not send marketing emails without your prior consent.
 `,
         },
         {
-          title: "14. Updates and Revisions",
-          text: `This Disclaimer may be updated periodically to reflect new laws, organizational changes, or updated practices. The revised version will take effect immediately upon posting. We encourage you to review this page regularly to stay informed of any updates.</br></br>
-Your continued use of the website after changes have been posted signifies your acceptance of those updates.
+          title: "14.Children’s Privacy",
+          text: `Our website is not intended for children under the age of 13. We do not knowingly collect or store information from minors.</br></br>
+If we become aware that we have collected personal information from a child under 13 without parental consent, we will delete it promptly. Parents or guardians who believe their child has provided such data may contact us for immediate action.
+
 `,
         },
         {
-          title: "15. Jurisdiction and Governing Law",
-          text: `This Disclaimer and any dispute related to your use of the website shall be governed by and interpreted in accordance with the laws of the State of Florida, without regard to its conflict of law principles.</br></br>
-Any disputes arising from or relating to this Disclaimer or website use shall be resolved exclusively in the appropriate state or federal courts located in Florida.
+          title: "15. International Users",
+          text: `Our website is operated from the United States. If you are visiting from outside the U.S., please note that your information may be transferred to and processed in the U.S., where data protection laws may differ from those in your country.</br></br>
+By using our website, you consent to the transfer and processing of your information in the United States in accordance with this Privacy Policy.
+
 `,
         },
         {
-          title: "16. Contact Information",
-          text: `If you have any questions, concerns, or requests related to this Disclaimer or your use of the website, please contact us directly at:</br></br>
+          title: "16.Changes to This Privacy Policy",
+          text: `Prestige Medical & Physical Therapy reserves the right to update or revise this Privacy Policy at any time. Any changes will be reflected with an updated “Effective Date” at the top of the page.</br></br>
+We encourage visitors to check this page periodically to stay informed of how we protect and handle information. Continued use of our website after updates are posted will signify your acceptance of those changes.
+
+`,
+        },
+        {
+          title: "17.Contact Us",
+          text: `If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please contact us:</br></br>
 <strong>Prestige Medical & Physical Therapy</strong></br>
 Email: prestigemedlmarketing@gmail.com</br>
 Phone: (813) 243-2500</br>
 Address: 8313 W. Hillsborough Ave. Suite 330 Tampa, FL 33615</br></br>
-We value transparency and will make every effort to address inquiries promptly.
+We will review your request and respond as promptly as possible.
+
 `,
         },
         {
-          title: "17. Acceptance of Disclaimer",
-          text: `By using this website, you acknowledge that you have read this Disclaimer, understand its terms, and agree to be bound by them. If you do not accept these terms, please refrain from using the site and any related services.</br></br>
-Your continued use constitutes your ongoing acceptance of this Disclaimer and any future updates.
+          title: "18.Acknowledgment",
+          text: `By using our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms. You also acknowledge that online communications carry inherent risks, and you accept those risks when voluntarily submitting personal information through the website.
 `,
         },
         {
-          title: "18. Final Statement",
-          text: `Prestige Medical & Physical Therapy is dedicated to patient care, education, and transparency. Our goal is to provide resources that empower visitors to make informed health decisions while emphasizing the importance of professional evaluation.</br></br>
-This website is intended to supplement, not replace, in-person medical consultation. We encourage all users to take proactive steps toward their health by consulting licensed healthcare professionals for individualized guidance.
+          title: "19.Final Statement",
+          text: `Prestige Medical & Physical Therapy is committed to protecting your privacy and ensuring transparency in how we handle information. We collect only what is necessary, use it responsibly, and protect it to the best of our ability.</br></br>
+Your trust is essential to us. We will continue to evaluate and improve our privacy and security practices to maintain that trust.
+
 `,
         },
       ].map((section, i) => (
