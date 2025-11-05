@@ -142,7 +142,7 @@ const page = async ({ params }: { params: { slug: string } }) => {
 
             <Image
               width={1000}
-              height={300}
+              height={800}
               src={blogs?.featuredImage?.image?.url}
               alt={blogs?.featuredImage?.altText}
               className="w-full h-auto bg-center bg-cover rounded-2xl"
