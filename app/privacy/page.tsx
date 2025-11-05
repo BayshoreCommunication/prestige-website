@@ -35,7 +35,7 @@ We respect your trust and handle all information responsibly, in compliance with
 `,
         },
         {
-          title: "2.Information We Collect",
+          title: "2. Information We Collect",
           text: `We collect two main types of information: Personal Information and Non-Personal Information.</br></br>
 <strong>A. Personal Information</strong/> </br></br>
 Personal Information refers to data that can identify you personally, such as:</br></br>
@@ -96,7 +96,7 @@ We use this data to improve site performance, monitor traffic patterns, and enha
 `,
         },
         {
-          title: "3.How We Collect Information",
+          title: "3. How We Collect Information",
           text: `We gather information through several methods:</br></br>
 <ul class="list-disc pl-10">
 <li>Directly from you: When you complete forms or communicate with us.</li></br>
@@ -113,40 +113,48 @@ All information is collected in accordance with applicable laws and used only fo
 `,
         },
         {
-          title: "4.How We Use Your Information",
+          title: "4. How We Use Your Information",
           text: `
           We use collected information for the following purposes:</br></br>
-<ol type="1" class="pl-10">
-<strong>Patient Communication:</strong></br>
- To contact you regarding appointments, reminders, inquiries, or treatment-related updates.</br></br>
+<ol type="1" class="pl-10 list-decimal">
+  <li>
+    <strong>Patient Communication:</strong><br />
+    To contact you regarding appointments, reminders, inquiries, or treatment-related updates.
+  </li></br>
 
+  <li>
+    <strong>Service Improvement:</strong><br />
+    To analyze site performance, identify user needs, and enhance our services and website design.
+  </li></br>
 
-<strong>Service Improvement:</strong></br>
- To analyze site performance, identify user needs, and enhance our services and website design.</br></br>
+  <li>
+    <strong>Customer Support:</strong><br />
+    To respond to your messages and provide assistance when needed.
+  </li></br>
 
+  <li>
+    <strong>Legal Compliance:</strong><br />
+    To comply with applicable healthcare, privacy, and data protection regulations.
+  </li></br>
 
-<strong>Customer Support:</strong></br>
- To respond to your messages and provide assistance when needed.</br></br>
+  <li>
+    <strong>Marketing (optional):</strong><br />
+    To send educational content, newsletters, or promotional updates, only if you have consented.
+  </li></br>
 
-
-<strong>Legal Compliance:</strong></br>
- To comply with applicable healthcare, privacy, and data protection regulations.</br></br>
-
-
-<strong>Marketing (optional):</strong></br>
- To send educational content, newsletters, or promotional updates, only if you have consented.</br></br>
-
-
-<strong>Internal Recordkeeping:</strong></br>
- To maintain accurate business and patient records for service management.</br></br>
+  <li>
+    <strong>Internal Recordkeeping:</strong><br />
+    To maintain accurate business and patient records for service management.
+  </li></br>
 </ol>
+
 
 We do not sell, rent, or trade your personal information under any circumstances.
 
 `,
         },
         {
-          title: "5.Legal Basis for Processing",
+          title: "5. Legal Basis for Processing",
           text: `Depending on your location and applicable data laws, we process your information under the following legal bases:</br></br>
 <ul class="list-disc pl-10"> 
 <li><strong>Consent:</strong> When you voluntarily provide information through our forms or subscribe to communications.</li></br>
@@ -162,7 +170,7 @@ We do not sell, rent, or trade your personal information under any circumstances
 `,
         },
         {
-          title: "6.Cookies and Tracking Technologies",
+          title: "6. Cookies and Tracking Technologies",
           text: `Our website uses cookies and related technologies to enhance user experience and analyze traffic. Cookies are small files stored on your device that help us remember user preferences and optimize performance.</br></br>
 We use:</br></br>
 <ul class="list-disc pl-10">
@@ -197,7 +205,7 @@ For example:</br></br>
 `,
         },
         {
-          title: "8.Data Security",
+          title: "8. Data Security",
           text: `We take appropriate administrative, physical, and technical measures to protect your information from unauthorized access, loss, misuse, or alteration.</br></br>
 Security measures include:</br></br>
 <ul class="list-disc pl-10">
@@ -218,7 +226,7 @@ While we use industry-standard safeguards, no online system can guarantee 100% s
 `,
         },
         {
-          title: "9.Sharing and Disclosure of Information",
+          title: "9. Sharing and Disclosure of Information",
           text: `We may share your personal data only in the following cases:</br></br>
 <ul class="list-disc pl-10">
 <li><strong>With service providers</strong> who help operate our website, schedule appointments, or process data securely.</li></br>
@@ -245,13 +253,13 @@ We are not responsible for the privacy practices, policies, or content of these 
 `,
         },
         {
-          title: "11.Patient Health Information",
+          title: "11. Patient Health Information",
           text: `If you become a patient of Prestige Medical & Physical Therapy, your medical and health-related information is governed by federal privacy laws such as <strong>HIPAA (Health Insurance Portability and Accountability Act)</strong> in the United States.</br></br>
 This Privacy Policy applies primarily to website visitors. A separate Notice of Privacy Practices is available at our clinic, which explains how we use and protect patient medical information as required by HIPAA regulations.
 `,
         },
         {
-          title: "12.Your Rights and Choices",
+          title: "12. Your Rights and Choices",
           text: `You have several rights concerning your personal data, depending on your location and applicable law:</br></br>
 <ul class="list-disc pl-10">
 <li><strong>Right to access:</strong> You may request a copy of the personal data we hold about you.</li></br>
@@ -278,13 +286,13 @@ To exercise any of these rights, contact us using the information provided at th
 `,
         },
         {
-          title: "13.Email Communications and Marketing",
+          title: "13. Email Communications and Marketing",
           text: `If you subscribe to our email list, we may send newsletters, updates, or promotions related to our services. You can opt out at any time by clicking the “unsubscribe” link at the bottom of any email or by contacting us directly.</br></br>
 We will not send marketing emails without your prior consent.
 `,
         },
         {
-          title: "14.Children’s Privacy",
+          title: "14. Children’s Privacy",
           text: `Our website is not intended for children under the age of 13. We do not knowingly collect or store information from minors.</br></br>
 If we become aware that we have collected personal information from a child under 13 without parental consent, we will delete it promptly. Parents or guardians who believe their child has provided such data may contact us for immediate action.
 
@@ -298,14 +306,14 @@ By using our website, you consent to the transfer and processing of your informa
 `,
         },
         {
-          title: "16.Changes to This Privacy Policy",
+          title: "16. Changes to This Privacy Policy",
           text: `Prestige Medical & Physical Therapy reserves the right to update or revise this Privacy Policy at any time. Any changes will be reflected with an updated “Effective Date” at the top of the page.</br></br>
 We encourage visitors to check this page periodically to stay informed of how we protect and handle information. Continued use of our website after updates are posted will signify your acceptance of those changes.
 
 `,
         },
         {
-          title: "17.Contact Us",
+          title: "17. Contact Us",
           text: `If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please contact us:</br></br>
 <strong>Prestige Medical & Physical Therapy</strong></br>
 Email: prestigemedlmarketing@gmail.com</br>
@@ -316,12 +324,12 @@ We will review your request and respond as promptly as possible.
 `,
         },
         {
-          title: "18.Acknowledgment",
+          title: "18. Acknowledgment",
           text: `By using our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms. You also acknowledge that online communications carry inherent risks, and you accept those risks when voluntarily submitting personal information through the website.
 `,
         },
         {
-          title: "19.Final Statement",
+          title: "19. Final Statement",
           text: `Prestige Medical & Physical Therapy is committed to protecting your privacy and ensuring transparency in how we handle information. We collect only what is necessary, use it responsibly, and protect it to the best of our ability.</br></br>
 Your trust is essential to us. We will continue to evaluate and improve our privacy and security practices to maintain that trust.
 

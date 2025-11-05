@@ -26,7 +26,7 @@ Cookies are not harmful programs or software. They do not access files on your c
 `,
         },
         {
-          title: "3.Why We Use Cookies",
+          title: "3. Why We Use Cookies",
           text: `We use cookies to achieve several important purposes, including:</br></br>
 <ul class="list-disc pl-10">
 <li><strong>Ensuring functionality – </strong>Cookies help essential features of the website operate correctly, such as navigation and secure access.</li></br>
@@ -49,7 +49,7 @@ Cookies make your interaction with our website more efficient, convenient, and p
 `,
         },
         {
-          title: "4.Types of Cookies We Use",
+          title: "4. Types of Cookies We Use",
           text: `
           We classify cookies into several categories based on their purpose and lifespan:</br></br>
 <strong>A. Strictly Necessary Cookies</strong></br></br>
@@ -87,7 +87,7 @@ Both help maintain continuity during your visit and retain certain preferences b
 `,
         },
         {
-          title: "5.Cookies We May Use",
+          title: "5. Cookies We May Use",
           text: `While specific cookie names can change over time, examples of cookies we may use include:</br></br>
 <ul class="list-disc pl-10">
 <li><strong>Google Analytics:</strong> To analyze visitor traffic and behavior patterns.</li></br>
@@ -107,7 +107,7 @@ If third-party tools are added, we will update this policy to include them and e
 `,
         },
         {
-          title: "6.Third-Party Cookies",
+          title: "6. Third-Party Cookies",
           text: `Some cookies on our website are placed by third-party services that help us operate more efficiently or provide certain features. Examples include embedded videos, maps, or analytics tools.</br></br>
 Third-party providers may collect information such as your IP address, browser type, and browsing activity. These cookies are controlled by the providers themselves, not by Prestige.</br></br>
 We recommend reviewing the privacy and cookie policies of any third-party service you interact with through our website.</br></br>
@@ -127,7 +127,7 @@ Prestige does not have control over third-party cookies once they are activated.
 `,
         },
         {
-          title: "7.Managing and Disabling Cookies",
+          title: "7. Managing and Disabling Cookies",
           text: `You have full control over how cookies are used on your device. Most browsers allow you to manage settings to accept, reject, or delete cookies.</br></br>
 To adjust your preferences:</br></br>
 <ul class="list-disc pl-10">
@@ -161,21 +161,21 @@ Here are some helpful links to manage cookies in common browsers:</br></br>
 `,
         },
         {
-          title: "8.Cookie Consent",
+          title: "8. Cookie Consent",
           text: `When you visit our website for the first time, you may see a notice or banner requesting your consent for cookie usage. By continuing to browse the site or by clicking “Accept,” you give us permission to store and access cookies as described in this policy.</br></br>
 You can withdraw your consent at any time by changing your browser settings or clearing cookies from your device.
 
 `,
         },
         {
-          title: "9.How We Protect Cookie Data",
+          title: "9. How We Protect Cookie Data",
           text: `The data collected by cookies is generally anonymous and used in aggregate form. We do not store sensitive personal details in cookies.</br></br>
 We take reasonable technical and organizational measures to protect cookie-related data against unauthorized access or misuse. All analytics data is processed securely and used solely for improving website performance.
 
 `,
         },
         {
-          title: "10.Legal Basis for Using Cookies",
+          title: "10. Legal Basis for Using Cookies",
           text: `Under applicable data protection laws, the use of cookies may rely on several legal bases:</br></br>
 
 <ul class="list-disc pl-10">
@@ -193,14 +193,14 @@ Where consent is required, you can choose to accept or reject cookies before the
 `,
         },
         {
-          title: "11.Changes to This Cookie Policy",
+          title: "11. Changes to This Cookie Policy",
           text: `Prestige Medical & Physical Therapy may update this Cookie Policy at any time to reflect new laws, technologies, or website features.</br></br>
 If changes are significant, we will post a notice on the website or update the effective date at the top of this page. Continued use of the site after changes are published means you accept the revised policy.
 
 `,
         },
         {
-          title: "12.Data Collected Through Cookies",
+          title: "12. Data Collected Through Cookies",
           text: `Cookies may collect limited data such as:</br></br>
 <ul class="list-disc pl-10">
 <li>Your browser and device type</li></br>
@@ -223,14 +223,14 @@ We use this data only for analytics, troubleshooting, and improving user experie
 `,
         },
         {
-          title: "13.Cookies and Email Tracking",
+          title: "13. Cookies and Email Tracking",
           text: `If you subscribe to our newsletters or updates, some emails may contain tracking cookies or pixels to measure open rates and engagement. This helps us improve communication and ensure content is relevant.</br></br>
 You can opt out of email tracking by unsubscribing from our mailing list or blocking image downloads in your email client.
 
 `,
         },
         {
-          title: "14.Use of Analytics Tools",
+          title: "14. Use of Analytics Tools",
           text: `We may use analytics tools such as Google Analytics to gather information on website usage patterns.</br></br>
 These tools use cookies to analyze behavior like pages visited, session length, and referral sources. The data is aggregated and anonymized.</br></br>
 Google Analytics data is managed under Google’s privacy and cookie policies. You can opt out of Google Analytics tracking by installing the browser add-on available at:</br>
@@ -240,7 +240,7 @@ Google Analytics data is managed under Google’s privacy and cookie policies. Y
 `,
         },
         {
-          title: "15.Third-Party Advertising (if applicable)",
+          title: "15. Third-Party Advertising (if applicable)",
           text: `If advertising cookies are used in the future, they will help deliver ads relevant to your interests. These may come from advertising networks that collect aggregated data about your visits to different websites.</br></br>
 You can opt out of interest-based advertising by visiting:</br></br>
 <ul class="list-disc pl-10">
@@ -254,14 +254,14 @@ You can opt out of interest-based advertising by visiting:</br></br>
 `,
         },
         {
-          title: "16.Children’s Privacy and Cookies",
+          title: "16. Children’s Privacy and Cookies",
           text: `Our website is not intended for children under 13 years of age. We do not knowingly collect data through cookies from minors.</br></br>
 If we become aware that information has been collected from a child without parental consent, we will delete it promptly.
 
 `,
         },
         {
-          title: "17.Contact Information",
+          title: "17. Contact Information",
           text: `If you have any questions or concerns about our use of cookies or this policy, please contact us:</br></br>
 <strong>Prestige Medical & Physical Therapy</strong></br>
 Email: prestigemedlmarketing@gmail.com</br>
@@ -272,7 +272,7 @@ We will do our best to respond to inquiries promptly and transparently.
 `,
         },
         {
-          title: "18.Your Rights",
+          title: "18. Your Rights",
           text: `Depending on your location, you may have rights regarding data collected through cookies. These can include:</br></br>
 <ul class="list-disc pl-10">
 <li>The right to access your data</li></br>
@@ -292,7 +292,7 @@ To exercise these rights, contact us directly through the details above.
 `,
         },
         {
-          title: "19.Final Statement",
+          title: "19. Final Statement",
           text: `Cookies are an essential part of modern websites. They help us understand our visitors’ needs, maintain smooth functionality, and continually improve the user experience.</br></br>
 At Prestige Medical & Physical Therapy, we use cookies responsibly and transparently. We respect your privacy and your right to choose how your data is handled.</br></br>
 By continuing to use our website, you acknowledge that you have read and understood this Cookie Policy and agree to its terms.
