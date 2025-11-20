@@ -18,19 +18,19 @@ const technologies = [
     image: "/images/ourtechnologies/tech2.png",
     title: "Strength & Conditioning Equipment",
     description:
-      "Our team helps manage your auto insurance claims under Florida’s PIP benefits, so you pay nothing upfront.",
+      "Our facility is equipped with advanced strength and conditioning machines designed to support recovery, improve mobility, and enhance overall physical function.",
   },
   {
     image: "/images/ourtechnologies/tech3.png",
     title: "Ultrasound Unit",
     description:
-      "We provide expert assistance with auto insurance claims, ensuring coverage through Florida’s PIP benefits with no upfront fees.",
+      "We utilize therapeutic ultrasound technology to reduce inflammation, promote tissue healing, and provide targeted relief for soft-tissue injuries.",
   },
   {
     image: "/images/ourtechnologies/tech4.png",
     title: "Laser Therapy System",
     description:
-      "We assist with auto insurance claims covered by Florida’s PIP benefits, with no upfront costs to you.",
+      "Our laser therapy system delivers focused light energy to help decrease pain, accelerate healing, and stimulate cellular repair in affected areas.",
   },
   {
     image: "/images/ourtechnologies/tech5.png",
@@ -48,7 +48,7 @@ const technologies = [
     image: "/images/ourtechnologies/tech7.png",
     title: "Spinal Decompression Machines",
     description:
-      "With Florida’s PIP benefits, we assist you in filing auto insurance claims without any out-of-pocket costs.",
+      "Our spinal decompression technology gently relieves pressure on the spine, supporting patients with chronic back discomfort, disc issues, and mobility limitations.",
   },
   {
     image: "/images/ourtechnologies/tech8.png",
