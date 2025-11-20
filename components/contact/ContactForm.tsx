@@ -1,10 +1,10 @@
 "use client";
 
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import Reveal from "@/components/motion/Reveal";
-import { useState } from "react";
-import Swal from "sweetalert2";
 import { send } from "emailjs-com";
+import { useState } from "react";
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import Swal from "sweetalert2";
 
 type ContactFormState = {
   name: string;
@@ -135,7 +135,9 @@ export default function ContactForm() {
                   <p className="flex items-center gap-2 text-prestige-yellow font-medium">
                     <FaEnvelope /> Email:
                   </p>
-                  <p className="text-gray-300">prestigemedlmarketing@gmail.com</p>
+                  <p className="text-gray-300">
+                   info@prestigemedpt.com
+                  </p>
                 </div>
                 {/* <div>
                   <p className="flex items-center gap-2 text-prestige-yellow font-medium">
@@ -157,27 +159,12 @@ export default function ContactForm() {
               </h3>
               <div className="grid grid-cols-2 gap-y-2 text-sm flex-1">
                 <p>
-                  <span className="font-semibold">Mon</span> 08:30 AM – 7:00 PM
+                  <span className="font-semibold">Tuesday:</span> 8:30 AM – 1:00
+                  PM / 2:30 PM – 7:00 PM
                 </p>
                 <p>
-                  <span className="font-semibold">Fri</span> 08:30 AM – 7:00 PM
-                </p>
-                <p>
-                  <span className="font-semibold">Tue</span> 08:30 AM – 7:00 PM
-                </p>
-                <p>
-                  <span className="font-semibold text-gray-400">Sat</span>{" "}
-                  CLOSED
-                </p>
-                <p>
-                  <span className="font-semibold">Wed</span> 08:30 AM – 7:00 PM
-                </p>
-                <p>
-                  <span className="font-semibold text-gray-400">Sun</span>{" "}
-                  CLOSED
-                </p>
-                <p>
-                  <span className="font-semibold">Thu</span> 08:30 AM – 7:00 PM
+                  <span className="font-semibold">Thursday:</span> 8:30 AM –
+                  1:00 PM / 2:30 PM – 7:00 PM
                 </p>
               </div>
             </div>
