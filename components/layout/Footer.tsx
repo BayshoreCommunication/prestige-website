@@ -25,13 +25,17 @@ export default function Footer() {
             />
           </div>
           <p className="mt-4 text-sm leading-relaxed text-gray-400">
-            The physicians and staff at Prestige & Physical Therapy understand
-            that being injured in an auto accident can be extremely stressful
-            for you and your family.
+            Prestige Medical & Physical Therapy is committed to supporting you and your family through the challenges of injury and recovery.
           </p>
-          <p className="mt-3 text-sm font-semibold text-white">
-            Hours: 8:30am - 7:00pm
+          <div>
+            <p className="mt-3 text-sm font-semibold text-white">
+            Hours of Operation
+          </p><p className="mt-3 text-sm font-semibold text-white">
+            Tuesday: 8:30 AM – 1:00 PM / 2:30 PM – 7:00 PM
+          </p><p className="mt-3 text-sm font-semibold text-white">
+            Thursday: 8:30 AM – 1:00 PM / 2:30 PM – 7:00 PM
           </p>
+          </div>
 
           {/* Social Icons */}
           <div className="flex space-x-4 mt-5 text-xl">

@@ -54,27 +54,22 @@ export default function AboutPrestige() {
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-4 font-montserrat">
-                At Prestige Medical & Physical Therapy, we believe that every patient deserves personalized, compassionate care. Our dedicated team has helped thousands of patients recover from auto accidents and injury-related conditions, guiding them back to a healthy, active life. Our mission is to provide a seamless, patient-centered experience, combining the latest medical techniques with hands-on physical therapy to restore mobility, reduce pain, and improve overall quality of life.
+               At Prestige Medical and Physical Therapy, we believe every patient deserves personalized, compassionate, and results driven care. Our team has supported thousands of individuals recovering from injuries, helping them return to a healthier, more active life. We focus on creating a seamless, patient centered experience that blends advanced medical techniques with hands on physical therapy to restore mobility, relieve pain, and enhance overall quality of life.</p>
+              </Reveal>
+              <Reveal tag="p" y={12} opacityFrom={0.1}>
+                <p className="text-gray-300 mb-6 font-montserrat">
+                Our clinic operates as a true multidisciplinary center, uniting board certified medical doctors, licensed chiropractors, and certified physical therapists under one roof. This collaborative model ensures each patient receives a customized treatment plan tailored to their specific condition and goals. From acute pain management to comprehensive rehabilitation, we focus on treating the whole person, not just isolated symptoms.
+
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                Our clinic is a multi-disciplinary center, bringing together board-certified medical doctors, licensed chiropractors, and certified physical therapists. This collaborative approach ensures that every patient receives a customized treatment plan tailored to their specific needs. Whether it’s acute pain relief, rehabilitation after an accident, or long-term injury management, we focus on treating the whole person, not just the symptoms.
+               We provide care for a wide range of conditions, including neck and back pain, joint discomfort, muscle soreness, numbness, headaches, and injuries resulting from accidents, workplace incidents, or sports activities. Through a combination of medical evaluation, physical therapy, chiropractic treatment, and advanced therapeutic technologies, we help patients recover safely, effectively, and efficiently.
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                We specialize in addressing conditions such as neck and back pain, joint discomfort, muscle soreness, numbness, headaches, and injuries caused by auto accidents, work incidents, or sports-related trauma. By combining medical evaluation, physical therapy, chiropractic care, and advanced therapeutic technologies, we help patients recover faster, safely, and effectively.
-                </p>
-              </Reveal>
-              <Reveal tag="p" y={12} opacityFrom={0.1}>
-                <p className="text-gray-300 mb-6 font-montserrat">
-                At Prestige, we also understand that dealing with injuries can be stressful, both physically and financially. That’s why we offer support with Florida PIP insurance claims, same-day appointments, and walk-in availability, making it easier for patients to focus on healing. Our team is committed to creating a welcoming, supportive environment where every patient feels understood, valued, and empowered to take an active role in their recovery.
-                </p>
-              </Reveal>
-              <Reveal tag="p" y={12} opacityFrom={0.1}>
-                <p className="text-gray-300 mb-6 font-montserrat">
-                Your health, mobility, and well-being are our top priorities. At Prestige Medical & Physical Therapy, we don’t just treat injuries — we help patients reclaim their lives and return to the activities they love with confidence and strength. Your healing journey starts here, and we are dedicated to being your trusted partner every step of the way.
+                We also recognize that navigating an injury can be stressful physically, emotionally, and financially. That is why we support patients with Florida PIP insurance claims, offer same day appointments, and welcome walk ins, making the path to recovery as smooth as possible. Our team is committed to creating a welcoming environment where every patient feels heard, supported, and empowered throughout their healing journey.
                 </p>
               </Reveal>
               

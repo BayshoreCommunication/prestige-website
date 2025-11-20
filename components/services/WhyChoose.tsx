@@ -6,7 +6,7 @@ export default function WhyChoosePrestige() {
   const leftItems = [
     {
       title: "Comprehensive Care in One Location",
-      desc: "Access multiple medical services without extra appointments.",
+      desc: "Access a wide range of medical services all in one place—no extra appointments needed.",
       icon: (
         <Image
           src="/images/whychoose/img1.png"
@@ -19,7 +19,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Immediate Treatment, No Upfront Costs",
-      desc: "PIP coverage allows accident victims to receive care without payment delays.",
+      desc: "PIP coverage enables accident victims to receive timely care without payment delays.",
       icon: (
         <Image
           src="/images/whychoose/img2.png"
@@ -32,7 +32,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Expert Injury Care with Insurance Assistance",
-      desc: "Get treatment while we handle your auto insurance claims.",
+      desc: "Receive treatment while we manage your auto insurance claims for you.",
       icon: (
         <Image
           src="/images/whychoose/img3.png"
@@ -45,7 +45,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "No Financial Barriers to Recovery",
-      desc: "Receive necessary medical attention without out-of-pocket expenses.",
+      desc: "Receive essential medical care with no out-of-pocket expenses.",
       icon: (
         <Image
           src="/images/whychoose/img4.png"
@@ -61,7 +61,7 @@ export default function WhyChoosePrestige() {
   const rightItems = [
     {
       title: "Hassle-Free Accident Injury Treatment",
-      desc: "Covered under Florida’s PIP benefits—no upfront costs required.",
+      desc: "Covered by Florida’s PIP benefits—no upfront costs necessary.",
       icon: (
         <Image
           src="/images/whychoose/img5.png"
@@ -74,7 +74,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Seamless Insurance Claim Support",
-      desc: "We assist with claims, ensuring stress-free medical care.",
+      desc: "We handle your claims to ensure a stress-free medical experience.",
       icon: (
         <Image
           src="/images/whychoose/img6.png"
@@ -87,7 +87,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Compassionate Care, Zero Upfront Costs",
-      desc: "Focus on healing while we manage your coverage.",
+      desc: "Focus on your recovery while we take care of your insurance coverage.",
       icon: (
         <Image
           src="/images/whychoose/img7.png"
@@ -100,7 +100,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Dedicated Auto Injury Treatment Team",
-      desc: "Professional medical support tailored for accident recovery.",
+      desc: "Expert medical care tailored specifically for accident recovery.",
       icon: (
         <Image
           src="/images/whychoose/img8.png"
@@ -124,13 +124,13 @@ export default function WhyChoosePrestige() {
                 <span className="text-prestige-yellow">Prestige</span>?
               </h2>
             </Reveal>
-            <Reveal tag="p" y={12} opacityFrom={0.08}>
+            {/* <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
                 The physicians and staff at prestige understand that being
                 injured in an auto accident can be extremely stressful for you
                 and your family.
               </p>
-            </Reveal>
+            </Reveal> */}
           </Stagger>
         </div>
 

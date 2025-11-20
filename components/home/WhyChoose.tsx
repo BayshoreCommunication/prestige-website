@@ -6,7 +6,7 @@ export default function WhyChoosePrestige() {
   const leftItems = [
     {
       title: "Comprehensive Care in One Location",
-      desc: "Access multiple medical services without extra appointments.",
+      desc: "Access a full range of medical services without the need for multiple appointments or referrals.",
       icon: (
         <Image
           src="/images/whychoose/img1.png"
@@ -18,8 +18,8 @@ export default function WhyChoosePrestige() {
       ),
     },
     {
-      title: "Immediate Treatment, No Upfront Costs",
-      desc: "PIP coverage allows accident victims to receive care without payment delays.",
+      title: "Immediate Treatment with No Upfront Costs",
+      desc: "Begin care right away through available insurance benefits, without worrying about immediate out-of-pocket payments.",
       icon: (
         <Image
           src="/images/whychoose/img2.png"
@@ -31,8 +31,8 @@ export default function WhyChoosePrestige() {
       ),
     },
     {
-      title: "Expert Injury Care with Insurance Assistance",
-      desc: "Get treatment while we handle your auto insurance claims.",
+      title: "Expert Injury Care with Insurance Support",
+      desc: "Our team helps coordinate your insurance benefits, simplifying the administrative process so you can focus on healing.",
       icon: (
         <Image
           src="/images/whychoose/img3.png"
@@ -45,7 +45,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "No Financial Barriers to Recovery",
-      desc: "Receive necessary medical attention without out-of-pocket expenses.",
+      desc: "Receive the treatment you need without payment delays or financial stress.",
       icon: (
         <Image
           src="/images/whychoose/img4.png"
@@ -61,7 +61,7 @@ export default function WhyChoosePrestige() {
   const rightItems = [
     {
       title: "Hassle-Free Accident Injury Treatment",
-      desc: "Covered under Florida’s PIP benefits—no upfront costs required.",
+      desc: "From evaluation to recovery, our streamlined process ensures you receive care quickly and efficiently.",
       icon: (
         <Image
           src="/images/whychoose/img5.png"
@@ -74,7 +74,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Seamless Insurance Claim Support",
-      desc: "We assist with claims, ensuring stress-free medical care.",
+      desc: "We help manage paperwork and benefit coordination to make your experience stress-free.",
       icon: (
         <Image
           src="/images/whychoose/img6.png"
@@ -86,8 +86,8 @@ export default function WhyChoosePrestige() {
       ),
     },
     {
-      title: "Compassionate Care, Zero Upfront Costs",
-      desc: "Focus on healing while we manage your coverage.",
+      title: "Compassionate Care at Every Step",
+      desc: "Our team prioritizes your comfort, well-being, and long-term recovery.",
       icon: (
         <Image
           src="/images/whychoose/img7.png"
@@ -99,8 +99,8 @@ export default function WhyChoosePrestige() {
       ),
     },
     {
-      title: "Dedicated Auto Injury Treatment Team",
-      desc: "Professional medical support tailored for accident recovery.",
+      title: "A Dedicated Injury-Care Team",
+      desc: "Experienced physicians, chiropractors, and therapists work together to create an individualized treatment plan for you.",
       icon: (
         <Image
           src="/images/whychoose/img8.png"
@@ -126,9 +126,8 @@ export default function WhyChoosePrestige() {
             </Reveal>
             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
-                The physicians and staff at prestige understand that being
-                injured in an auto accident can be extremely stressful for you
-                and your family.
+                At Prestige, our physicians and staff understand that dealing with an injury can be overwhelming for you and your family. We provide compassionate, coordinated care designed to make your recovery as smooth and stress-free as possible.
+
               </p>
             </Reveal>
           </Stagger>

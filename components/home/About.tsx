@@ -54,23 +54,19 @@ export default function About() {
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-4 font-montserrat">
-                  The physicians and staff at prestige understand that being
-                  injured in an auto accident can be extremely stressful for you
-                  and your family. Our multi-disciplinary team of Board
-                  Certified Medical Doctors (M.D.’s), Board Certified Doctors of
-                  Osteopathic Medicine (D.O.’s) and Board Certified Chiropractor
-                  (D.C.’s) will tailor an individual treatment plan for your
-                  specific injury needs.
+                  The physicians and staff at Prestige understand that experiencing an injury can be stressful for you and your family. Our multi disciplinary team of Board Certified Medical Doctors, Doctors of Osteopathic Medicine, Doctors of Chiropractic, and licensed Physical Therapists creates individualized treatment plans tailored to your specific needs.
+
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                  Auto accidents can cause back or neck pain, soreness, numbness
-                  in the arms or legs, joint or muscle pain, stress, anxiety, or
-                  headaches. Through our individual medical evaluations and
-                  consultations, prestige will identify and help alleviate these
-                  conditions. Prestige work closely with primary care physicians
-                  in the Tampa Bay area.
+                  Injuries may lead to back or neck pain, muscle soreness, numbness in the arms or legs, joint discomfort, tension, or headaches. Through thorough medical evaluations and consultations, Prestige identifies the source of these symptoms and provides targeted care to help you feel and function better.
+                </p>
+              </Reveal>
+              <Reveal tag="p" y={12} opacityFrom={0.1}>
+                <p className="text-gray-300 mb-6 font-montserrat">
+                  
+                Prestige also works closely with primary care physicians throughout the Tampa Bay area to ensure seamless communication and continuity of care.
                 </p>
               </Reveal>
               <Reveal y={10} opacityFrom={0}>

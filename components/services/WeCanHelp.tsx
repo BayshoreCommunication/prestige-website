@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function WeCanHelp() {
   const services = [
     {
-      title: "Physio Therapy",
-      slug: "physio-therapy",
-      desc: "We focus on auto accident care and treatment options that will help ease your pain and deal with life after an auto accident.",
+      title: "Chiropractic Manipulation",
+      slug: "Chiropractic Manipulation",
+      desc: "We provide targeted chiropractic adjustments that help restore alignment, reduce nerve and muscle pressure, and support overall healing and mobility.",
       icon: (
         <Image
           src="/images/canhelp/img1.png"
@@ -22,7 +22,7 @@ export default function WeCanHelp() {
     {
       title: "Digital Radiography",
       slug: "digital-radiography",
-      desc: "Our physicians will diagnose and evaluate your injury or condition to determine the type of treatment that is most appropriate.",
+      desc: "Our clinicians use advanced imaging to accurately assess your condition and create a treatment plan tailored to your needs.",
       icon: (
         <Image
           src="/images/canhelp/img2.png"
@@ -36,7 +36,7 @@ export default function WeCanHelp() {
     {
       title: "Individual Treatment Plans",
       slug: "individual-treatment-plans",
-      desc: "Trauma associated with auto injuries can take days or weeks to manifest, that's why it's important to get treatment ASAP!",
+      desc: "Every patient receives a personalized care plan based on their symptoms, recovery goals, and medical evaluation.",
       icon: (
         <Image
           src="/images/canhelp/img3.png"
@@ -50,7 +50,7 @@ export default function WeCanHelp() {
     {
       title: "Injury Rehabilitation",
       slug: "injury-rehabilitation",
-      desc: "Our exercise and stretching routines will build flexibility and strength, so you can fully restore your maximum range of motion and independence.",
+      desc: "Our guided exercise and stretching programs help restore strength, flexibility, and full range of motion.",
       icon: (
         <Image
           src="/images/canhelp/img4.png"
@@ -61,24 +61,24 @@ export default function WeCanHelp() {
         />
       ),
     },
-    // {
-    //   title: "Physical Therapy",
-    //   slug: "physical-therapy",
-    //   desc: "Hydrotherapy uses the combination of water, heat and massage to provide a comforting and relaxing experience, relieving pain.",
-    //   icon: (
-    //     <Image
-    //       src="/images/canhelp/img5.png"
-    //       alt="Physical Therapy"
-    //       width={60}
-    //       height={60}
-    //       className="w-[60px] h-[60px]"
-    //     />
-    //   ),
-    // },
     {
-      title: "Constant neck and back pain?",
-      slug: "constant-neck-and-back-pain",
-      desc: "Chiropractic adjustments relieve pressure on the nerves and muscles, and treat the underlying spinal or whiplash injury.",
+      title: "Physical Therapy (P.T.)",
+      slug: "Physical Therapy (P.T.)",
+      desc: "Our physical therapy programs focus on restoring strength, mobility, and function through targeted exercises and guided treatment techniques.",
+      icon: (
+        <Image
+          src="/images/canhelp/img5.png"
+          alt="Physical Therapy"
+          width={60}
+          height={60}
+          className="w-[60px] h-[60px]"
+        />
+      ),
+    },
+    {
+      title: "Neck and Back Pain Relief",
+      slug: "Neck and Back Pain Relief",
+      desc: "Chiropractic adjustments help reduce nerve and muscle pressure, supporting relief from spinal discomfort and everyday strain.",
       icon: (
         <Image
           src="/images/canhelp/img6.png"
@@ -101,13 +101,13 @@ export default function WeCanHelp() {
                 You
               </h2>
             </Reveal>
-            <Reveal tag="p" y={12} opacityFrom={0.08}>
+            {/* <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-white max-w-2xl mx-auto text-sm md:text-base">
                 The physicians and staff at prestige understand that being
                 injured in an auto accident can be extremely stressful for you
                 and your family.
               </p>
-            </Reveal>
+            </Reveal> */}
           </Stagger>
         </div>
 

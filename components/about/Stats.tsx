@@ -48,7 +48,7 @@ export default function Stats() {
                     {years}+
                   </h3>
                   <p className="text-gray-300 text-sm">
-                    Combined Excellency of Years
+                    Doctor’s Team Members
                   </p>
                 </div>
               </div>

@@ -6,7 +6,7 @@ export default function Offer() {
   const offerings = [
     {
       title: "Multi-Disciplinary Care",
-      desc: "Offers digital X-rays, physical therapy, chiropractic care, trigger point injections, and medical evaluations at each location.",
+      desc: "A coordinated team of physicians, chiropractors, and physical therapists providing personalized treatment for your recovery.",
       icon: (
         <Image
           src="/images/offer/img1.png"
@@ -19,7 +19,7 @@ export default function Offer() {
     },
     {
       title: "Care without Upfront Costs",
-      desc: "Assistance with auto insurance claims, covered under PIP benefits in Florida with no upfront costs.",
+      desc: "Begin care immediately through eligible insurance benefits with no payment required at the start.",
       icon: (
         <Image
           src="/images/offer/img2.png"
@@ -32,7 +32,7 @@ export default function Offer() {
     },
     {
       title: "Convenient & Compassionate Service",
-      desc: "Same-day appointments and walk-ins with 18 locations across West Central Florida.",
+      desc: "Same-day visits and walk-ins available across our multiple West Central Florida locations.",
       icon: (
         <Image
           src="/images/offer/img3.png"
@@ -45,7 +45,7 @@ export default function Offer() {
     },
     {
       title: "Transportation Available",
-      desc: "Transportation services for medical appointments.",
+      desc: "Transportation services available for all medical appointments.",
       icon: (
         <Image
           src="/images/offer/img4.png"
@@ -58,7 +58,7 @@ export default function Offer() {
     },
     {
       title: "24/7 Personal Help",
-      desc: "Operators available 24/7/365, with extended office hours for convenience.",
+      desc: "Our team is available around the clock to support your needs and schedule.",
       icon: (
         <Image
           src="/images/offer/img5.png"
@@ -71,7 +71,7 @@ export default function Offer() {
     },
     {
       title: "Same-Day Appointments",
-      desc: "Prompt scheduling for those in pain or needing urgent care.",
+      desc: "Fast access to care for patients experiencing pain or requiring prompt attention.",
       icon: (
         <Image
           src="/images/offer/img6.png"
@@ -96,9 +96,7 @@ export default function Offer() {
             </Reveal>
             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
-                The physicians and staff at prestige understand that being
-                injured in an auto accident can be extremely stressful for you
-                and your family.
+                At Prestige, our physicians and staff recognize that an injury can place significant stress on you and your family, and we are here to support you.
               </p>
             </Reveal>
           </Stagger>

@@ -4,7 +4,7 @@ import Reveal from "@/components/motion/Reveal";
 import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function HomeSection() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -39,14 +39,16 @@ export default function HomeSection() {
           <div className="flex-1 text-left lg:max-w-xl">
             <Stagger>
               <Reveal tag="h1" y={18} opacityFrom={0}>
+                <p className="text-black font-semibold text-2xl"> Injured ?
+                    Hurt?
+                    In Pain? </p>
                 <h1 className="text-[36px] md:text-[56px] font-bold leading-tight text-gray-900">
-                  Strong today, <br /> Stronger tomorrow.
+                  We Can Help.
                 </h1>
               </Reveal>
               <Reveal tag="p" y={14} opacityFrom={0.06}>
                 <p className="mt-6 text-black text-base md:text-lg sm:max-w-xl">
-                  We have specialized in treating the victims of auto accidents. Let our team of dedicated medical professionals
-                  help you find relief from your pain and suffering.
+                  Experience a multi disciplinary team approach that unites doctors, chiropractors, and physical therapists to support your recovery from every angle.
                 </p>
               </Reveal>
 

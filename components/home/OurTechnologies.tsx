@@ -12,49 +12,49 @@ const technologies = [
     image: "/images/ourtechnologies/tech1.png",
     title: "Whole-Body Vibration Platform",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida with no upfront costs.",
+      "Covered by Florida’s PIP benefits, we handle your auto insurance claims with zero upfront costs.",
   },
   {
     image: "/images/ourtechnologies/tech2.png",
     title: "Strength & Conditioning Equipment",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida.",
+      "Our team helps manage your auto insurance claims under Florida’s PIP benefits, so you pay nothing upfront.",
   },
   {
     image: "/images/ourtechnologies/tech3.png",
     title: "Ultrasound Unit",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida.",
+      "We provide expert assistance with auto insurance claims, ensuring coverage through Florida’s PIP benefits with no upfront fees.",
   },
   {
     image: "/images/ourtechnologies/tech4.png",
     title: "Laser Therapy System",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida with no upfront costs.",
+      "We assist with auto insurance claims covered by Florida’s PIP benefits, with no upfront costs to you.",
   },
   {
     image: "/images/ourtechnologies/tech5.png",
     title: "Spinal Decompression Machines",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida with no upfront costs.",
+      "We simplify the auto insurance claims process for you, leveraging Florida’s PIP benefits with no initial payments required.",
   },
   {
     image: "/images/ourtechnologies/tech6.png",
     title: "Therapeutic Ultrasound Devices",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida.",
+      "Get help navigating your auto insurance claims covered by Florida’s PIP benefits without any upfront expenses.",
   },
   {
     image: "/images/ourtechnologies/tech7.png",
     title: "Spinal Decompression Machines",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida.",
+      "With Florida’s PIP benefits, we assist you in filing auto insurance claims without any out-of-pocket costs.",
   },
   {
     image: "/images/ourtechnologies/tech8.png",
     title: "Digital X-Ray Machines",
     description:
-      "Assistance with auto insurance claims, covered under PIP benefits in Florida with no upfront costs.",
+      "We work with your auto insurance claims under Florida’s PIP coverage to ensure you receive care with no upfront charges.",
   },
 ];
 
