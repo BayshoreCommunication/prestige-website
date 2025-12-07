@@ -11,16 +11,8 @@ const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const pathname = usePathname();
 
-  // Sticky Header Scroll Logic
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 150) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
-
+    const handleScroll = () => setIsSticky(window.scrollY > 150);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -29,14 +21,11 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    // { name: "Testimonials", href: "/testimonials" },
     { name: "Blogs", href: "/blogs" },
     { name: "Contact", href: "/contact" },
   ];
 
-  const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
+  const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   return (
     <header
@@ -80,16 +69,16 @@ const Navbar = () => {
               ))}
             </div>
 
-          {/* Emergency Call Button - Desktop */}
-          <div className="hidden lg:flex">
-            <a
-              href="tel:+18132432500"
-              className="bg-prestige-yellow text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2"
-            >
-              <Phone className="w-4 h-4" />
-              <span>Emergency Call</span>
-            </a>
-          </div>
+            {/* Phone Number Button - Desktop */}
+            <div className="hidden lg:flex">
+              <a
+                href="tel:+18132432500"
+                className="bg-prestige-yellow text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-colors duration-200 flex items-center space-x-2"
+              >
+                <Phone className="w-4 h-4" />
+                <span>+1 (813) 243-2500</span>
+              </a>
+            </div>
 
             {/* Mobile menu button */}
             <div className="lg:hidden flex items-center">
@@ -98,11 +87,7 @@ const Navbar = () => {
                 className="text-white hover:text-prestige-yellow focus:outline-none p-2"
                 aria-label="Toggle mobile menu"
               >
-                {isMenuOpen ? (
-                  <X className="w-6 h-6" />
-                ) : (
-                  <Menu className="w-6 h-6" />
-                )}
+                {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
             </div>
           </div>
@@ -126,13 +111,14 @@ const Navbar = () => {
                   </Link>
                 ))}
 
+                {/* Phone Number Button - Mobile */}
                 <a
                   href="tel:+18132432500"
-                  className=" bg-prestige-yellow text-black px-3 py-2 rounded-md font-semibold hover:bg-yellow-300 transition-colors duration-200 flex items-center space-x-2 mt-4"
+                  className="bg-prestige-yellow text-black px-4 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-colors duration-200 flex items-center space-x-2 mt-4 justify-center"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <Phone className="w-4 h-4" />
-                  <span>Emergency Call</span>
+                  <span>+1 (813) 243-2500</span>
                 </a>
               </div>
             </div>

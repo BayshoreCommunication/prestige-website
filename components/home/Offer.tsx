@@ -96,7 +96,7 @@ export default function Offer() {
             </Reveal>
             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
-                At Prestige, our physicians and staff recognize that an injury can place significant stress on you and your family, and we are here to support you.
+              At Prestige, our physicians and staff understand that an injury can create significant stress for you and your family. We are here to support you every step of the way.
               </p>
             </Reveal>
           </Stagger>

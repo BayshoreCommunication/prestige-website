@@ -54,19 +54,31 @@ export default function About() {
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-4 font-montserrat">
-                  The physicians and staff at Prestige understand that experiencing an injury can be stressful for you and your family. Our multi disciplinary team of Board Certified Medical Doctors, Doctors of Osteopathic Medicine, Doctors of Chiropractic, and licensed Physical Therapists creates individualized treatment plans tailored to your specific needs.
+                At Prestige Medical & Physical Therapy, we believe every patient deserves compassionate, personalized care. Our team has helped thousands recover from auto accidents and injury-related conditions, guiding them back to a healthy and active life. We are committed to providing a seamless, patient-focused experience by combining advanced medical techniques with hands-on physical therapy to reduce pain, restore mobility, and improve overall quality of life.
 
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
-                  Injuries may lead to back or neck pain, muscle soreness, numbness in the arms or legs, joint discomfort, tension, or headaches. Through thorough medical evaluations and consultations, Prestige identifies the source of these symptoms and provides targeted care to help you feel and function better.
+                Our clinic operates as a multidisciplinary center, bringing together board-certified medical doctors, licensed chiropractors, and certified physical therapists. This collaborative model allows us to create individualized treatment plans tailored to each patient’s condition and recovery goals. Whether you need immediate pain relief, post-accident rehabilitation, or long-term injury management, we treat the whole person, not just the symptoms.
                 </p>
               </Reveal>
               <Reveal tag="p" y={12} opacityFrom={0.1}>
                 <p className="text-gray-300 mb-6 font-montserrat">
                   
-                Prestige also works closely with primary care physicians throughout the Tampa Bay area to ensure seamless communication and continuity of care.
+                We specialize in conditions such as neck and back pain, joint discomfort, muscle soreness, numbness, headaches, and injuries resulting from auto collisions, workplace incidents, or sports-related trauma. Through medical evaluation, physical therapy, chiropractic care, and advanced therapeutic modalities, we help patients recover safely, effectively, and with confidence.
+                </p>
+              </Reveal>
+              <Reveal tag="p" y={12} opacityFrom={0.1}>
+                <p className="text-gray-300 mb-6 font-montserrat">
+                  
+                We know injuries can be stressful physically and financially, which is why we support Florida PIP insurance claims and offer same-day appointments and walk-ins to ensure fast access to care. Our environment is designed to feel supportive and welcoming, where patients feel valued, understood, and empowered throughout their recovery.
+                </p>
+              </Reveal>
+              <Reveal tag="p" y={12} opacityFrom={0.1}>
+                <p className="text-gray-300 mb-6 font-montserrat">
+                  
+                Your health, mobility, and well-being are our highest priorities. At Prestige Medical & Physical Therapy, we don’t just treat injuries. We help people reclaim their lives and return to the activities they love. Your recovery starts here, and we are committed to walking with you every step of the way.
                 </p>
               </Reveal>
               <Reveal y={10} opacityFrom={0}>

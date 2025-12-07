@@ -25,7 +25,7 @@ const doctors = [
   {
     name: "Hector Sanchez Pereira",
     role: "Nurse Practitioner",
-    img: "/images/aboutpage/ourdoctors/doc2.png",
+    img: "/images/aboutpage/ourdoctors/doc4.png",
     social: {
       instagram: "#",
       youtube: "#",

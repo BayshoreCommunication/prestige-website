@@ -25,7 +25,7 @@ export default function Footer() {
             />
           </div>
           <p className="mt-4 text-sm leading-relaxed text-gray-400">
-            Prestige Medical & Physical Therapy is committed to supporting you and your family through the challenges of injury and recovery.
+          Prestige Medical & Physical Therapy is dedicated to helping you and your family navigate the challenges of injury and recovery with confidence and care.
           </p>
           <div>
             <p className="mt-3 text-sm text-white">

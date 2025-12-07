@@ -6,7 +6,7 @@ export default function WhyChoosePrestige() {
   const leftItems = [
     {
       title: "Comprehensive Care in One Location",
-      desc: "Access a full range of medical services without the need for multiple appointments or referrals.",
+      desc: "Access multiple medical services under one roof. No unnecessary referrals or extra appointments.",
       icon: (
         <Image
           src="/images/whychoose/img1.png"
@@ -19,7 +19,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Immediate Treatment with No Upfront Costs",
-      desc: "Begin care right away through available insurance benefits, without worrying about immediate out-of-pocket payments.",
+      desc: "PIP benefits allow accident patients to begin care without payment delays.",
       icon: (
         <Image
           src="/images/whychoose/img2.png"
@@ -32,7 +32,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Expert Injury Care with Insurance Support",
-      desc: "Our team helps coordinate your insurance benefits, simplifying the administrative process so you can focus on healing.",
+      desc: "Receive treatment while we assist with managing your auto insurance claims.",
       icon: (
         <Image
           src="/images/whychoose/img3.png"
@@ -45,7 +45,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "No Financial Barriers to Recovery",
-      desc: "Receive the treatment you need without payment delays or financial stress.",
+      desc: "Get the medical care you need with no out-of-pocket cost for eligible coverage.",
       icon: (
         <Image
           src="/images/whychoose/img4.png"
@@ -61,7 +61,7 @@ export default function WhyChoosePrestige() {
   const rightItems = [
     {
       title: "Hassle-Free Accident Injury Treatment",
-      desc: "From evaluation to recovery, our streamlined process ensures you receive care quickly and efficiently.",
+      desc: "Covered by Florida PIP benefits so you can start care quickly and without upfront fees.",
       icon: (
         <Image
           src="/images/whychoose/img5.png"
@@ -74,7 +74,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Seamless Insurance Claim Support",
-      desc: "We help manage paperwork and benefit coordination to make your experience stress-free.",
+      desc: "We manage the paperwork and claims process to ensure a smooth, stress-free experience.",
       icon: (
         <Image
           src="/images/whychoose/img6.png"
@@ -87,7 +87,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "Compassionate Care at Every Step",
-      desc: "Our team prioritizes your comfort, well-being, and long-term recovery.",
+      desc: "Focus fully on healing while we handle benefit verification and coverage processing.",
       icon: (
         <Image
           src="/images/whychoose/img7.png"
@@ -100,7 +100,7 @@ export default function WhyChoosePrestige() {
     },
     {
       title: "A Dedicated Injury-Care Team",
-      desc: "Experienced physicians, chiropractors, and therapists work together to create an individualized treatment plan for you.",
+      desc: "A clinical team specializing in accident-related injuries, rehabilitation, and recovery support.",
       icon: (
         <Image
           src="/images/whychoose/img8.png"
@@ -126,7 +126,7 @@ export default function WhyChoosePrestige() {
             </Reveal>
             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm md:text-base">
-                At Prestige, our physicians and staff understand that dealing with an injury can be overwhelming for you and your family. We provide compassionate, coordinated care designed to make your recovery as smooth and stress-free as possible.
+              At Prestige Medical & Physical Therapy, we combine medical expertise with compassionate care to deliver complete recovery solutions.
 
               </p>
             </Reveal>

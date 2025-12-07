@@ -28,9 +28,7 @@ export default async function Blogs() {
             </Reveal>
             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="text-gray-300 mt-3 max-w-2xl mx-auto">
-                The physicians and staff at prestige understand that being
-                injured in an auto accident can be extremely stressful for you
-                and your family.
+              Stay updated with expert insights, treatment tips, and real patient-focused guidance designed to help you understand your care and progress with confidence.
               </p>
             </Reveal>
           </Stagger>

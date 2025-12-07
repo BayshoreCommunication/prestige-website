@@ -71,9 +71,7 @@ export default function Technologies() {
             </Reveal>
             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="text-gray-300 mt-3 max-w-2xl mx-auto">
-                The physicians and staff at prestige understand that being
-                injured in an auto accident can be extremely stressful for you
-                and your family.
+              We utilize advanced technology that supports every stage of your treatment, helping us diagnose quickly and treat more effectively.
               </p>
             </Reveal>
           </Stagger>

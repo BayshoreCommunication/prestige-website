@@ -6,19 +6,20 @@ import Link from "next/link";
 export default function WeCanHelp() {
   const services = [
     {
-      title: "Chiropractic Manipulation",
-      slug: "Chiropractic Manipulation",
-      desc: "We provide targeted chiropractic adjustments that help restore alignment, reduce nerve and muscle pressure, and support overall healing and mobility.",
+      title: "Physical Therapy (P.T.)",
+      slug: "Physical Therapy (P.T.)",
+      desc: "Our physical therapy programs focus on restoring strength, mobility, and function through targeted exercises and guided treatment techniques.",
       icon: (
         <Image
-          src="/images/canhelp/img1.png"
-          alt="Physio Therapy"
+          src="/images/canhelp/img5.png"
+          alt="Physical Therapy"
           width={60}
           height={60}
           className="w-[60px] h-[60px]"
         />
       ),
     },
+    
     {
       title: "Digital Radiography",
       slug: "digital-radiography",
@@ -62,13 +63,13 @@ export default function WeCanHelp() {
       ),
     },
     {
-      title: "Physical Therapy (P.T.)",
-      slug: "Physical Therapy (P.T.)",
-      desc: "Our physical therapy programs focus on restoring strength, mobility, and function through targeted exercises and guided treatment techniques.",
+      title: "Chiropractic Manipulation",
+      slug: "Chiropractic Manipulation",
+      desc: "We provide targeted chiropractic adjustments that help restore alignment, reduce nerve and muscle pressure, and support overall healing and mobility.",
       icon: (
         <Image
-          src="/images/canhelp/img5.png"
-          alt="Physical Therapy"
+          src="/images/canhelp/img1.png"
+          alt="Physio Therapy"
           width={60}
           height={60}
           className="w-[60px] h-[60px]"
@@ -97,17 +98,14 @@ export default function WeCanHelp() {
           <Stagger>
             <Reveal tag="h2" y={16} opacityFrom={0}>
               <h2 className="text-3xl md:text-4xl font-bold text-white">
-                How We Can <span className="text-prestige-yellow">Help</span>{" "}
-                You
+              Our Core <span className="text-prestige-yellow">Services</span>
               </h2>
             </Reveal>
-            {/* <Reveal tag="p" y={12} opacityFrom={0.08}>
+             <Reveal tag="p" y={12} opacityFrom={0.08}>
               <p className="mt-4 text-white max-w-2xl mx-auto text-sm md:text-base">
-                The physicians and staff at prestige understand that being
-                injured in an auto accident can be extremely stressful for you
-                and your family.
+              At Prestige, our physicians and staff understand that an injury can create significant stress for you and your family. We are here to support you every step of the way.
               </p>
-            </Reveal> */}
+            </Reveal> 
           </Stagger>
         </div>
 

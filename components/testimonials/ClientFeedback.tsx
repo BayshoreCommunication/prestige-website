@@ -88,14 +88,12 @@ export default function ClientFeedback() {
         <div className="mb-12">
           <Reveal y={20} opacityFrom={0}>
             <h2 className="text-3xl md:text-5xl font-bold text-white">
-              The <span className="text-prestige-yellow">Feedback</span> From
-              Our Clients
+            What Our Clients Say About Us  
             </h2>
           </Reveal>
           <Reveal y={30} opacityFrom={0}>
             <p className="text-gray-300 mt-4 max-w-3xl mx-auto">
-              Real stories from patients who found relief, recovery, and renewed
-              confidence with Prestige.
+            Real stories from patients who found relief, recovery, and renewed confidence with Prestige Medical & Physical Therapy.
             </p>
           </Reveal>
         </div>
