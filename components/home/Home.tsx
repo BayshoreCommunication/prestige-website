@@ -69,7 +69,7 @@ export default function HomeSection() {
 
   return (
     <section className="bg-black pb-60 md:p-0">
-      <div className="relative w-full bg-[url('/images/home/hero-bg.png')] bg-cover bg-center min-h-[70vh] lg:min-h-[70vh]">
+      <div className="relative w-full bg-[url('/images/home/bg.png')] md:bg-[url('/images/home/hero-bg.png')] bg-cover bg-center min-h-[70vh] lg:min-h-[70vh]">
         <div className="max-w-[1640px] mx-auto flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 pt-10 lg:pt-24">
           {/* Left Content */}
           <div className="flex-1 text-left lg:max-w-xl">
