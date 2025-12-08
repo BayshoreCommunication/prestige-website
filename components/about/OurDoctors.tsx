@@ -12,7 +12,7 @@ const doctors = [
   {
     name: "Alisha Churchill, DPT",
     role: "Physical Therapist",
-    img: "/images/aboutpage/ourdoctors/alisha.png",
+    img: "/images/aboutpage/ourdoctors/alisha.jpg",
     social: {
       instagram: "#",
       youtube: "#",
@@ -25,7 +25,7 @@ const doctors = [
   {
     name: "Hector Sanchez Pereira",
     role: "Nurse Practitioner",
-    img: "/images/aboutpage/ourdoctors/doc4.png",
+    img: "/images/aboutpage/ourdoctors/hector.jpg",
     social: {
       instagram: "#",
       youtube: "#",
@@ -38,7 +38,7 @@ const doctors = [
   {
     name: "Dr. Ernest D Buzzella, DC",
     role: "Chiropractor",
-    img: "/images/aboutpage/ourdoctors/doc3.png",
+    img: "/images/aboutpage/ourdoctors/earnest.jpg  ",
     social: {
       instagram: "#",
       youtube: "#",
