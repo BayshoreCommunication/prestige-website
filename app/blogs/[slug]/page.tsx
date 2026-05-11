@@ -4,6 +4,8 @@ import React from "react";
 import parse from "html-react-parser";
 import GetAllPostData from "../../../lib/GetPostData";
 import Blogs from "@/components/blogs/Blogs";
+import ClinicalAndSafetyBenefitsBlog from "@/components/static-blogs/blogs/clinical-and-safety-benefits";
+import { staticBlogs } from "@/components/static-blogs/static-blog-data";
 const css = `
  h1, h2, p, br, nav {
   padding-top: 10px;
@@ -56,6 +58,23 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }) {
+  const staticBlog = staticBlogs.find((blog) => blog.slug === params.slug);
+
+  if (staticBlog) {
+    return {
+      title: staticBlog.title,
+      description: staticBlog.description,
+      openGraph: {
+        title: staticBlog.cardTitle,
+        description: staticBlog.description,
+        images: staticBlog.image,
+        url: `https://prestige-website-beta.vercel.app/blogs/${staticBlog.slug}`,
+        type: "article",
+        site_name: "prestige-website-beta.vercel.app",
+      },
+    };
+  }
+
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.find(
@@ -91,6 +110,10 @@ export async function generateMetadata({
 
 const page = async ({ params }: { params: { slug: string } }) => {
   const blogPostData = await GetAllPostData();
+
+  if (params.slug === "clinical-and-safety-benefits") {
+    return <ClinicalAndSafetyBenefitsBlog blogPostData={blogPostData} />;
+  }
 
   const blogDetails = blogPostData?.data?.filter(
     (blogs: any) => blogs.slug === params.slug

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import parse from "html-react-parser";
+import { staticBlogs } from "@/components/static-blogs/static-blog-data";
 // const blogs = [
 //   {
 //     slug: "brand-positioning-what-space-will-you-own-in-your-customers-mind-during-your-business-transformation", //digital-radiography
@@ -80,8 +81,14 @@ import parse from "html-react-parser";
 
 export default function BlogPage({ blogPostData }: { blogPostData: any }) {
   const posts = blogPostData?.data?.filter((b: any) => b.published);
+  const allPosts = [...staticBlogs, ...(posts || [])];
+  const getDescription = (blog: any) => {
+    if (blog.description || blog.shortDescription) {
+      return blog.description || blog.shortDescription;
+    }
 
-  console.log("blogPostDatayhthyt", posts);
+    return typeof blog.body === "string" ? parse(blog.body) : blog.body;
+  };
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
@@ -106,42 +113,45 @@ export default function BlogPage({ blogPostData }: { blogPostData: any }) {
         </div>
 
         {/* ===== Blog Grid ===== */}
-        {posts.length === 0 ? (
+        {allPosts.length === 0 ? (
           <div className="text-center py-16 text-gray-600">
             No posts available
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {posts.map((blog: any, index: number) => (
+            {allPosts.map((blog: any, index: number) => (
               <Link
                 href={`/blogs/${blog.slug}`}
                 key={index}
                 className="group bg-[#111] border border-gray-700 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] p-6"
               >
                 {/* Image */}
-                <div className="relative w-full h-52">
+                <div className="relative w-full aspect-[544/329] bg-[#f7f7f7]">
                   <Image
                     src={
                       blog.image ||
                       blog?.featuredImage?.image?.url ||
                       "/images/placeholder.jpg"
                     }
-                    alt={blog.altText || blog.title}
+                    alt={
+                      blog.alt ||
+                      blog.altText ||
+                      blog?.featuredImage?.altText ||
+                      blog.title
+                    }
                     width={1000}
                     height={800}
-                    className="object-cover"
+                    className="h-full w-full object-cover"
                   />
                 </div>
 
                 {/* Content */}
                 <div className="p-5 text-left">
                   <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-prestige-yellow transition">
-                    {blog.title}
+                    {blog.cardTitle || blog.title}
                   </h3>
                   <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
-                    {typeof blog.body === "string"
-                      ? parse(blog.body)
-                      : blog.body}
+                    {getDescription(blog)}
                   </p>
                   <span className="text-prestige-yellow font-medium text-sm hover:underline">
                     Read More →
