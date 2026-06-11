@@ -629,7 +629,7 @@ export default function ProfessionalPhysicalTherapyComplexInjuryCasesBlog({
                         {section.quote && (
                           <blockquote className="mt-6 border-l-4 border-[#2B7BBA] bg-[#f7f7f7] p-5">
                             <p className="text-lg font-semibold italic leading-8 text-[#1B2639]">
-                              "{section.quote}"
+                              <q>{section.quote}</q>
                             </p>
                             <footer className="mt-3 text-sm font-bold text-gray-600">
                               - {section.quoteBy}

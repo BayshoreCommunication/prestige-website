@@ -1,4 +1,22 @@
-export const clinicalSafetyBlog = {
+export type StaticBlog = {
+  slug: string;
+  title: string;
+  cardTitle: string;
+  imageTitle: string;
+  description: string;
+  shortDescription: string;
+  caption: string;
+  image: string;
+  alt: string;
+  category: string;
+  published: boolean;
+  createdAt: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  canonical?: string;
+};
+
+export const clinicalSafetyBlog: StaticBlog = {
   slug: "clinical-and-safety-benefits",
   title:
     "Clinical and Safety Benefits of Digital Radiography in Multidisciplinary Care",
@@ -19,7 +37,7 @@ export const clinicalSafetyBlog = {
   createdAt: "2026-05-11",
 };
 
-export const professionalPhysicalTherapyComplexInjuryCasesBlog = {
+export const professionalPhysicalTherapyComplexInjuryCasesBlog: StaticBlog = {
   slug: "the-difference-professional-physical-therapy-makes-in-complex-injury-cases",
   title:
     "The Difference Professional Physical Therapy Makes in Complex Injury Cases",
@@ -44,7 +62,7 @@ export const professionalPhysicalTherapyComplexInjuryCasesBlog = {
   createdAt: "2026-06-11",
 };
 
-export const staticBlogs = [
+export const staticBlogs: StaticBlog[] = [
   professionalPhysicalTherapyComplexInjuryCasesBlog,
   clinicalSafetyBlog,
 ];
