@@ -84,7 +84,7 @@ export default function BlogPage({ blogPostData }: { blogPostData: any }) {
   console.log("blogPostDatayhthyt", posts);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 8;
+  const itemsPerPage = 3;
 
   // const totalPages = Math.ceil(blogs.length / itemsPerPage);
   // const startIndex = (currentPage - 1) * itemsPerPage;
