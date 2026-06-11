@@ -5,7 +5,12 @@ import parse from "html-react-parser";
 import GetAllPostData from "../../../lib/GetPostData";
 import Blogs from "@/components/blogs/Blogs";
 import ClinicalAndSafetyBenefitsBlog from "@/components/static-blogs/blogs/clinical-and-safety-benefits";
-import { staticBlogs } from "@/components/static-blogs/static-blog-data";
+import ProfessionalPhysicalTherapyComplexInjuryCasesBlog from "@/components/static-blogs/blogs/the-difference-professional-physical-therapy-makes-in-complex-injury-cases";
+import {
+  clinicalSafetyBlog,
+  professionalPhysicalTherapyComplexInjuryCasesBlog,
+  staticBlogs,
+} from "@/components/static-blogs/static-blog-data";
 const css = `
  h1, h2, p, br, nav {
   padding-top: 10px;
@@ -61,16 +66,37 @@ export async function generateMetadata({
   const staticBlog = staticBlogs.find((blog) => blog.slug === params.slug);
 
   if (staticBlog) {
+    const canonicalUrl =
+      staticBlog.canonical ||
+      `https://www.prestigemedpt.com/blogs/${staticBlog.slug}`;
+    const metaTitle = staticBlog.metaTitle || staticBlog.title;
+    const metaDescription =
+      staticBlog.metaDescription || staticBlog.shortDescription || staticBlog.description;
+
     return {
-      title: staticBlog.title,
-      description: staticBlog.description,
+      title: metaTitle,
+      description: metaDescription,
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
-        title: staticBlog.cardTitle,
-        description: staticBlog.description,
-        images: staticBlog.image,
-        url: `https://prestige-website-beta.vercel.app/blogs/${staticBlog.slug}`,
+        title: metaTitle,
+        description: metaDescription,
+        images: [
+          {
+            url: staticBlog.image,
+            alt: staticBlog.alt,
+          },
+        ],
+        url: canonicalUrl,
         type: "article",
-        site_name: "prestige-website-beta.vercel.app",
+        siteName: "Prestige Medical & Physical Therapy",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: metaTitle,
+        description: metaDescription,
+        images: [staticBlog.image],
       },
     };
   }
@@ -111,8 +137,16 @@ export async function generateMetadata({
 const page = async ({ params }: { params: { slug: string } }) => {
   const blogPostData = await GetAllPostData();
 
-  if (params.slug === "clinical-and-safety-benefits") {
+  if (params.slug === clinicalSafetyBlog.slug) {
     return <ClinicalAndSafetyBenefitsBlog blogPostData={blogPostData} />;
+  }
+
+  if (params.slug === professionalPhysicalTherapyComplexInjuryCasesBlog.slug) {
+    return (
+      <ProfessionalPhysicalTherapyComplexInjuryCasesBlog
+        blogPostData={blogPostData}
+      />
+    );
   }
 
   const blogDetails = blogPostData?.data?.filter(
