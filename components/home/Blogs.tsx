@@ -3,6 +3,7 @@ import Stagger from "@/components/motion/Stagger";
 import Image from "next/image";
 import Link from "next/link";
 import GetAllPostData from "@/lib/GetPostData";
+import { staticBlogs } from "@/components/static-blogs/static-blog-data";
 
 function extractTextFromHtml(htmlString: string): string {
   const plainText = htmlString.replace(/<\/?[^>]+(>|$)/g, "");
@@ -12,9 +13,11 @@ function extractTextFromHtml(htmlString: string): string {
 export default async function Blogs() {
   const blogPostData = await GetAllPostData();
   const publishedBlogs =
-    blogPostData?.data
-      ?.filter((blog: any) => blog.published === true)
-      ?.slice(0, 4) || [];
+    [
+      ...staticBlogs,
+      ...(blogPostData?.data?.filter((blog: any) => blog.published === true) ||
+        []),
+    ].slice(0, 4);
   return (
     <section className="bg-prestige-black">
       <section className="max-w-[1640px] mx-auto px-8 py-8 md:py-16">
@@ -39,9 +42,12 @@ export default async function Blogs() {
           {publishedBlogs.length > 0 ? (
             <Stagger>
               {publishedBlogs.map((blog: any, index: number) => {
-                const description = blog.body
+                const description =
+                  blog.shortDescription ||
+                  blog.description ||
+                  (blog.body
                   ? extractTextFromHtml(blog.body).slice(0, 100) + "..."
-                  : "Read more about this blog post.";
+                    : "Read more about this blog post.");
 
                 return (
                   <Reveal key={blog.slug || index} y={16} opacityFrom={0}>
@@ -52,23 +58,25 @@ export default async function Blogs() {
                       {/* Blog Image */}
                       <Image
                         src={
+                          blog.image ||
                           blog?.featuredImage?.image?.url ||
                           "/images/placeholder.png"
                         }
                         alt={
+                          blog.alt ||
                           blog?.featuredImage?.altText ||
                           blog.title ||
                           "Blog image"
                         }
                         width={400}
                         height={250}
-                        className="w-full h-52 object-cover"
+                        className="w-full aspect-[544/329] object-cover"
                       />
 
                       {/* Blog Content */}
                       <div className="p-5">
                         <h3 className="text-lg font-semibold text-white">
-                          {blog.title}
+                          {blog.cardTitle || blog.title}
                         </h3>
                         <p className="text-gray-400 text-sm mt-2">
                           {description}
