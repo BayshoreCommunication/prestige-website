@@ -20,7 +20,7 @@ export default function Services() {
 
       {/* Overlay Content */}
       <div className="relative z-20 flex flex-col justify-center items-start min-h-[300px] md:min-h-[400px] text-white space-y-4 max-w-[1640px] mx-auto">
-        <h1 className="text-3xl md:text-5xl font-bold text-black">Services</h1>
+        <p className="text-3xl md:text-5xl font-bold text-black">Services</p>
         <div className="flex items-center space-x-2 bg-prestige-yellow px-3 py-1 rounded-full">
           <Link
             href="/"

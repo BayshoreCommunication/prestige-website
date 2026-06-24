@@ -1,10 +1,13 @@
-"use client";
+import { Metadata } from "next";
 
-// export const metadata = {
-//   title: "Disclaimer | Prestige Medical & Physical Therapy",
-//   description:
-//     "Read the full Disclaimer outlining the terms, responsibilities, and limitations for using the Prestige Medical & Physical Therapy website.",
-// };
+export const metadata: Metadata = {
+  title: "Privacy Policy | Prestige Medical & Physical Therapy",
+  description:
+    "Read our Privacy Policy to understand how we collect, use, and protect your personal information.",
+  alternates: {
+    canonical: "/privacy",
+  },
+};
 
 export default function PrivacyPage() {
   return (

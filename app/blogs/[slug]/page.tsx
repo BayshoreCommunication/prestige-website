@@ -101,6 +101,7 @@ export async function generateMetadata({
     };
   }
 
+
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.find(
@@ -118,16 +119,32 @@ export async function generateMetadata({
   const plainTextDescription = extractTextFromHtml(rawDescription);
   const shortDescription = truncateText(plainTextDescription, 120);
 
+  const canonicalUrl = `/blogs/${blogDetails?.slug}`;
+  const ogUrl = `https://www.prestigemedpt.com/blogs/${blogDetails?.slug}`;
   return {
     title: blogDetails?.title,
     description: shortDescription,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: blogDetails?.title,
       description: shortDescription,
-      images: blogDetails?.featuredImage?.image?.url,
-      url: `https://www.medicalweightlosstampa.com/blog/${blogDetails?.slug}`,
+      images: [
+        {
+          url: blogDetails?.featuredImage?.image?.url || "",
+          alt: blogDetails?.featuredImage?.altText || blogDetails?.title || "Blog Image",
+        },
+      ],
+      url: ogUrl,
       type: "article",
-      site_name: "medicalweightlosstampa.com",
+      siteName: "Prestige Medical & Physical Therapy",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: blogDetails?.title,
+      description: shortDescription,
+      images: [blogDetails?.featuredImage?.image?.url || ""],
     },
   };
 }

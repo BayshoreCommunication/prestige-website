@@ -33,13 +33,7 @@ const sansation = localFont({
 export const metadata: Metadata = {
   title: "PRESTIGE Medical & Physical Therapy",
   description: "Professional medical and physical therapy services with advanced treatment options and personalized care.",
-  metadataBase: new URL("https://prestige-website-beta.vercel.app"),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-US": "/en-US",
-    },
-  },
+  metadataBase: new URL("https://www.prestigemedpt.com"),
 
   openGraph: {
     images: "/opengraph-image.png",

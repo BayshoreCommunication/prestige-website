@@ -205,6 +205,42 @@ const faqs = [
   },
 ];
 
+const articleUrl = clinicalSafetyBlog.canonical;
+const articleImageUrl = `https://www.prestigemedpt.com${clinicalSafetyBlog.image}`;
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: clinicalSafetyBlog.title,
+    description: clinicalSafetyBlog.metaDescription,
+    image: articleImageUrl,
+    datePublished: clinicalSafetyBlog.createdAt,
+    dateModified: clinicalSafetyBlog.createdAt,
+    mainEntityOfPage: articleUrl,
+    author: {
+      "@type": "Organization",
+      name: "Prestige Medical & Physical Therapy",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Prestige Medical & Physical Therapy",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  },
+];
+
 const postDate = (date: string) =>
   new Date(date).toLocaleDateString("en-US", {
     year: "numeric",
@@ -223,6 +259,10 @@ export default function ClinicalAndSafetyBenefitsBlog({
 
   return (
     <main className="bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <section className="relative px-8 w-full mx-auto">
         <div className="absolute inset-0">
           <Image
@@ -237,9 +277,9 @@ export default function ClinicalAndSafetyBenefitsBlog({
         </div>
 
         <div className="relative z-20 flex flex-col justify-center items-start min-h-[300px] md:min-h-[400px] text-white space-y-4 max-w-[1640px] mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold text-black">
+          <p className="text-3xl md:text-5xl font-bold text-black">
             Blog Details
-          </h1>
+          </p>
           <div className="flex items-center space-x-2 bg-prestige-yellow px-3 py-1 rounded-full">
             <Link
               href="/"
@@ -442,9 +482,7 @@ export default function ClinicalAndSafetyBenefitsBlog({
                 <h2 className="text-3xl font-bold text-[#1B2639]">
                   Frequently Asked Questions
                 </h2>
-                <p className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] text-gray-500">
-                  People Also Ask About Digital Radiography
-                </p>
+                
                 <div className="mt-6 space-y-5">
                   {faqs.map((faq) => (
                     <div key={faq.question} className="bg-[#f7f7f7] p-5">

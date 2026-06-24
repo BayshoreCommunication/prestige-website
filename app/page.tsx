@@ -8,6 +8,14 @@ import Stats from "@/components/home/Stats";
 import WeCanHelp from "@/components/home/WeCanHelp";
 import WhyChoose from "@/components/home/WhyChoose";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
+
 export default function Home() {
   return (
     <div className="">

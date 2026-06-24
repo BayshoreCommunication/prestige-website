@@ -35,6 +35,11 @@ export const clinicalSafetyBlog: StaticBlog = {
   category: "Digital Radiography",
   published: true,
   createdAt: "2026-05-11",
+  metaTitle: "The Truth About Digital Radiography Safety & Care",
+  metaDescription:
+    "How does digital radiography improve multidisciplinary care? Examine the safety benefits, radiation standards, and high-resolution diagnostic impact here.",
+  canonical:
+    "https://www.prestigemedpt.com/blogs/clinical-and-safety-benefits",
 };
 
 export const professionalPhysicalTherapyComplexInjuryCasesBlog: StaticBlog = {

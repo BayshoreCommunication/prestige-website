@@ -314,6 +314,9 @@ export async function generateMetadata({
   return {
     title: `${service.title} | Prestige Medical & Physical Therapy`,
     description: service.desc,
+    alternates: {
+      canonical: `/services/${params.slug}`,
+    },
   };
 }
 
@@ -355,9 +358,9 @@ export default function ServiceDetail({
         </div>
 
         <div className="relative z-20 flex flex-col justify-center items-start min-h-[300px] md:min-h-[400px] text-white space-y-4 max-w-[1640px] mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold text-black">
+          <p className="text-3xl md:text-5xl font-bold text-black">
             {service.title}
-          </h1>
+          </p>
           <div className="flex items-center space-x-2 bg-prestige-yellow px-3 py-1 rounded-full">
             <Link
               href="/"
