@@ -64,10 +64,38 @@ export const professionalPhysicalTherapyComplexInjuryCasesBlog: StaticBlog = {
   alt: "Physical therapist assisting a patient with rehabilitation exercises for recovery from a complex injury and chronic pain management.",
   category: "Physical Therapy",
   published: true,
-  createdAt: "2026-06-11",
+  createdAt: "2026-07-08",
+};
+
+export const effectiveTreatmentPlanInjuryPatientsBlog: StaticBlog = {
+  slug: "effective-treatment-plan-injury-patients",
+  title:
+    "What Goes Into Creating an Effective Treatment Plan for Injury Patients",
+  cardTitle:
+    "What Goes Into Creating an Effective Treatment Plan for Injury Patients",
+  imageTitle: "What Goes Into Creating an Effective Treatment Plan for Injury Patients",
+  description:
+    "Professional physical therapy graphic illustrating the development of an effective treatment plan for injury patients. The image features a licensed physical therapist evaluating a patient's knee injury to create a personalized rehabilitation program based on medical assessment, pain management, therapeutic exercises, mobility goals, and functional recovery. It highlights the importance of customized care plans that promote faster healing, reduce pain, restore strength, and improve long-term physical function.",
+  shortDescription:
+    "Learn how a personalized treatment plan combines expert evaluation, targeted therapy, pain management, and rehabilitation strategies to help injury patients recover safely.",
+  caption:
+    "Learn how a personalized treatment plan combines expert evaluation, targeted therapy, pain management, and rehabilitation strategies to help injury patients recover safely, restore mobility, and achieve lasting results.",
+  image:
+    "/images/static-blogs/effective-treatment-plan-injury-patients.webp",
+  alt: "Physical therapist assessing a patient's knee injury while creating a personalized treatment plan for pain relief, rehabilitation, mobility restoration, and recovery after injury.",
+  category: "Injury Recovery",
+  published: true,
+  createdAt: "2026-07-08",
+  metaTitle: "Best Effective Injury Plans for Florida Injury Patients",
+  metaDescription:
+    "Don't make the #1 mistake injury patients make. See how this Tampa team cuts recovery times by 30% using a hidden clinical method.",
+  canonical:
+    "https://www.prestigemedpt.com/blogs/effective-treatment-plan-injury-patients",
 };
 
 export const staticBlogs: StaticBlog[] = [
   professionalPhysicalTherapyComplexInjuryCasesBlog,
   clinicalSafetyBlog,
+  effectiveTreatmentPlanInjuryPatientsBlog,
 ];
+

@@ -6,9 +6,11 @@ import GetAllPostData from "../../../lib/GetPostData";
 import Blogs from "@/components/blogs/Blogs";
 import ClinicalAndSafetyBenefitsBlog from "@/components/static-blogs/blogs/clinical-and-safety-benefits";
 import ProfessionalPhysicalTherapyComplexInjuryCasesBlog from "@/components/static-blogs/blogs/the-difference-professional-physical-therapy-makes-in-complex-injury-cases";
+import EffectiveTreatmentPlanInjuryPatientsBlog from "@/components/static-blogs/blogs/What Goes Into Creating an Effective Treatment Plan for Injury Patients";
 import {
   clinicalSafetyBlog,
   professionalPhysicalTherapyComplexInjuryCasesBlog,
+  effectiveTreatmentPlanInjuryPatientsBlog,
   staticBlogs,
 } from "@/components/static-blogs/static-blog-data";
 const css = `
@@ -161,6 +163,14 @@ const page = async ({ params }: { params: { slug: string } }) => {
   if (params.slug === professionalPhysicalTherapyComplexInjuryCasesBlog.slug) {
     return (
       <ProfessionalPhysicalTherapyComplexInjuryCasesBlog
+        blogPostData={blogPostData}
+      />
+    );
+  }
+
+  if (params.slug === effectiveTreatmentPlanInjuryPatientsBlog.slug) {
+    return (
+      <EffectiveTreatmentPlanInjuryPatientsBlog
         blogPostData={blogPostData}
       />
     );
