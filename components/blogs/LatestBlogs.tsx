@@ -81,7 +81,11 @@ import { staticBlogs } from "@/components/static-blogs/static-blog-data";
 
 export default function BlogPage({ blogPostData }: { blogPostData: any }) {
   const posts = blogPostData?.data?.filter((b: any) => b.published);
-  const allPosts = [...staticBlogs, ...(posts || [])];
+  const allPosts = [...staticBlogs, ...(posts || [])].sort((a: any, b: any) => {
+    const dateA = new Date(a.createdAt || 0).getTime();
+    const dateB = new Date(b.createdAt || 0).getTime();
+    return dateB - dateA;
+  });
   const getDescription = (blog: any) => {
     if (blog.description || blog.shortDescription) {
       return blog.description || blog.shortDescription;

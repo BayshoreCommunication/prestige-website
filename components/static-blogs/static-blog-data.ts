@@ -64,7 +64,7 @@ export const professionalPhysicalTherapyComplexInjuryCasesBlog: StaticBlog = {
   alt: "Physical therapist assisting a patient with rehabilitation exercises for recovery from a complex injury and chronic pain management.",
   category: "Physical Therapy",
   published: true,
-  createdAt: "2026-07-08",
+  createdAt: "2026-06-11",
 };
 
 export const effectiveTreatmentPlanInjuryPatientsBlog: StaticBlog = {

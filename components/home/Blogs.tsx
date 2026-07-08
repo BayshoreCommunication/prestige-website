@@ -17,7 +17,13 @@ export default async function Blogs() {
       ...staticBlogs,
       ...(blogPostData?.data?.filter((blog: any) => blog.published === true) ||
         []),
-    ].slice(0, 4);
+    ]
+      .sort((a: any, b: any) => {
+        const dateA = new Date(a.createdAt || 0).getTime();
+        const dateB = new Date(b.createdAt || 0).getTime();
+        return dateB - dateA;
+      })
+      .slice(0, 4);
   return (
     <section className="bg-prestige-black">
       <section className="max-w-[1640px] mx-auto px-8 py-8 md:py-16">
