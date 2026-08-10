@@ -93,9 +93,35 @@ export const effectiveTreatmentPlanInjuryPatientsBlog: StaticBlog = {
     "https://www.prestigemedpt.com/blogs/effective-treatment-plan-injury-patients",
 };
 
+export const bestSleepingPositionsNeckBackPainBlog: StaticBlog = {
+  slug: "best-sleeping-positions-neck-back-pain",
+  title: "Best Sleeping Positions for Neck and Back Pain",
+  cardTitle: "Best Sleeping Positions for Neck and Back Pain",
+  imageTitle: "Best Sleeping Positions for Neck and Back Pain",
+  description:
+    "Educational physical therapy graphic explaining sleeping positions that may help support spinal alignment and comfort for people experiencing neck or back pain. The image compares side sleeping, back sleeping, and stomach sleeping, highlighting pillow support, spinal alignment, reduced strain, better sleep, and recovery.",
+  shortDescription:
+    "The way you sleep can affect how your neck and back feel. Learn which sleeping positions may support better spinal alignment, comfort, and restful sleep.",
+  caption:
+    "The way you sleep can affect how your neck and back feel. Learn which sleeping positions may support better spinal alignment, comfort, and restful sleep.",
+  image:
+    "/images/static-blogs/best-sleeping-positions-neck-back-pain.webp",
+  alt: "Educational graphic showing recommended sleeping positions for neck and back pain, including side sleeping, back sleeping, and avoiding stomach sleeping.",
+  category: "Spine Health & Sleep",
+  published: true,
+  createdAt: "2026-08-10",
+  metaTitle: "We Ranked The Best Sleeping Position For Back & Neck Pain",
+  metaDescription:
+    "Back sleeping with a knee pillow is best for alignment. But if you are doing this one common position, you are secretly breaking your spine every night.",
+  canonical:
+    "https://www.prestigemedpt.com/blogs/best-sleeping-positions-neck-back-pain",
+};
+
 export const staticBlogs: StaticBlog[] = [
+  bestSleepingPositionsNeckBackPainBlog,
   professionalPhysicalTherapyComplexInjuryCasesBlog,
   clinicalSafetyBlog,
   effectiveTreatmentPlanInjuryPatientsBlog,
 ];
+
 
