@@ -240,41 +240,148 @@ const sections = [
   },
 ];
 
-const articleUrl = bestSleepingPositionsNeckBackPainBlog.canonical;
-const articleImageUrl = `https://www.prestigemedpt.com${bestSleepingPositionsNeckBackPainBlog.image}`;
-
-const structuredData = [
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: bestSleepingPositionsNeckBackPainBlog.title,
-    description: bestSleepingPositionsNeckBackPainBlog.metaDescription,
-    image: articleImageUrl,
-    datePublished: bestSleepingPositionsNeckBackPainBlog.createdAt,
-    dateModified: bestSleepingPositionsNeckBackPainBlog.createdAt,
-    mainEntityOfPage: articleUrl,
-    author: {
-      "@type": "Organization",
-      name: "Prestige Medical & Physical Therapy",
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.prestigemedpt.com/",
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.prestigemedpt.com/blogs",
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best Sleeping Positions for Neck and Back Pain",
+          "item":
+            "https://www.prestigemedpt.com/blogs/best-sleeping-positions-neck-back-pain",
+        },
+      ],
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Prestige Medical & Physical Therapy",
-    },
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id":
+          "https://www.prestigemedpt.com/blogs/best-sleeping-positions-neck-back-pain",
       },
-    })),
-  },
-];
+      "headline": "Best Sleeping Positions for Neck and Back Pain",
+      "name": "We Ranked The Best Sleeping Position For Back & Neck Pain",
+      "description":
+        "Back sleeping with a knee pillow is best for alignment. But if you are doing this one common position, you are secretly breaking your spine every night.",
+      "url":
+        "https://www.prestigemedpt.com/blogs/best-sleeping-positions-neck-back-pain",
+      "image":
+        "https://www.prestigemedpt.com/images/static-blogs/best-sleeping-positions-neck-back-pain.webp",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://www.prestigemedpt.com/blogs",
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Sleeping Positions for Neck and Back Pain",
+        "description":
+          "An overview of sleeping positions, pillow support, mattress firmness, and sleep posture considerations that may help support spinal alignment and comfort for people with neck and back pain.",
+      },
+      "keywords": [
+        "best sleeping positions for neck and back pain",
+        "sleeping positions for back pain",
+        "sleeping positions for neck pain",
+        "best sleeping position for lower back pain",
+        "sleep posture for back pain",
+        "sleep posture for neck pain",
+        "pillow position for back pain",
+        "pillow position for neck pain",
+        "mattress firmness for back pain",
+        "stomach sleeping back pain",
+        "Tampa neck and back pain treatment",
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "Prestige Medical & Physical Therapy",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Prestige Medical & Physical Therapy",
+        "url": "https://www.prestigemedpt.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.prestigemedpt.com/images/navbar/logo.png",
+        },
+      },
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many pillows do I sleep on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "One supportive pillow on top is usually better than two. Stacking pushes the neck into an odd angle.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Can a body pillow help with back pain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Yes. It gives side sleepers steady support for knees and hips.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Is it bad to switch positions during the night?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Not at all. Shifting is normal and often a sign of self-correction.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "Does sleeping on the floor help spine alignment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Usually not. Hard surfaces create pressure points rather than support natural curves.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "What firmness of pillow is best for neck pain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Firm enough to hold shape all night. Soft enough to contour the neck's curve.",
+          },
+        },
+        {
+          "@type": "Question",
+          "name": "How to stop rolling onto stomach while sleeping?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text":
+              "Training yourself takes a few weeks. Try using a tennis ball clipped to the front of your shirt, or use a heavy body pillow on your side to create a physical barrier.",
+          },
+        },
+      ],
+    },
+  ],
+};
 
 const postDate = (date: string) =>
   new Date(date).toLocaleDateString("en-US", {
