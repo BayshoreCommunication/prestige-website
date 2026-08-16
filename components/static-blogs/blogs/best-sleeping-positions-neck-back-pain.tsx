@@ -753,9 +753,9 @@ export default function BestSleepingPositionsNeckBackPainBlog({
 
                         {section.cta && (
                           <div className="mt-6 bg-[#1B2639] p-6 text-white rounded-lg shadow-md">
-                            <h3 className="text-2xl font-bold text-prestige-yellow">
+                            <h2 className="text-2xl font-bold text-prestige-yellow">
                               {section.cta.title}
-                            </h3>
+                            </h2>
                             <p className="mt-3 text-base leading-8 text-gray-100">
                               {section.cta.text}
                             </p>
