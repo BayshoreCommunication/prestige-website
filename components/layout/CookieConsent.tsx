@@ -5,14 +5,11 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function CookieConsent() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    // Show cookie consent on every page reload / visit
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 400);
-    return () => clearTimeout(timer);
+    setMounted(true);
   }, []);
 
   const handleAccept = () => {
@@ -23,16 +20,18 @@ export default function CookieConsent() {
     setIsVisible(false);
   };
 
+  if (!mounted) return null;
+
   return (
     <AnimatePresence>
       {isVisible && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 sm:p-6">
+        <div className="fixed inset-0 z-[99999] flex items-center justify-center p-4 sm:p-6">
           {/* Backdrop overlay */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 bg-black/75 backdrop-blur-sm"
+            className="fixed inset-0 bg-black/75 backdrop-blur-sm z-0"
             onClick={handleDecline}
           />
 
@@ -59,14 +58,16 @@ export default function CookieConsent() {
             {/* Action Buttons */}
             <div className="grid grid-cols-2 gap-4">
               <button
+                type="button"
                 onClick={handleDecline}
-                className="w-full py-3 px-6 rounded-xl text-white font-medium bg-white/10 hover:bg-white/20 border border-white/20 transition-all duration-200 text-center active:scale-95"
+                className="w-full py-3 px-6 rounded-xl text-white font-medium bg-white/10 hover:bg-white/20 border border-white/20 transition-all duration-200 text-center active:scale-95 cursor-pointer"
               >
                 Decline
               </button>
               <button
+                type="button"
                 onClick={handleAccept}
-                className="w-full py-3 px-6 rounded-xl text-black font-bold bg-prestige-yellow hover:bg-[#e5bc05] transition-all duration-200 shadow-lg hover:shadow-yellow-500/20 text-center active:scale-95"
+                className="w-full py-3 px-6 rounded-xl text-black font-bold bg-prestige-yellow hover:bg-[#e5bc05] transition-all duration-200 shadow-lg hover:shadow-yellow-500/20 text-center active:scale-95 cursor-pointer"
               >
                 Accept
               </button>
