@@ -172,14 +172,14 @@ export default function ContactForm() {
         </div>
 
         {/* ===== Contact Form ===== */}
-        <Reveal y={50} opacityFrom={0}>
+        {/* <Reveal y={50} opacityFrom={0}>
           <div className="bg-[#151515] p-8 rounded-xl">
             <h3 className="text-xl font-semibold border-b border-gray-700 pb-3 mb-6">
               Send Us a Message
             </h3>
 
             <form onSubmit={handleSubmit} className="space-y-6">
-              {/* Top Row */}
+              
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col">
                   <input
@@ -220,7 +220,7 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              {/* Middle Row */}
+              
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col">
                   <input
@@ -261,7 +261,6 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              {/* Message */}
               <div className="flex flex-col">
                 <textarea
                   rows={4}
@@ -281,7 +280,6 @@ export default function ContactForm() {
                 )}
               </div>
 
-              {/* Submit Button */}
               <div className="flex justify-start">
                 <button
                   type="submit"
@@ -297,7 +295,7 @@ export default function ContactForm() {
               </div>
             </form>
           </div>
-        </Reveal>
+        </Reveal> */}
       </section>
     </main>
   );

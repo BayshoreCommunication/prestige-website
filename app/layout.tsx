@@ -1,3 +1,4 @@
+import CookieConsent from "@/components/layout/CookieConsent";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import type { Metadata } from "next";
@@ -52,8 +53,10 @@ export default function RootLayout({
           <Navbar />
           <main className="">{children}</main>
           <Footer />
+          <CookieConsent />
         </Providers>
       </body>
     </html>
   );
 }
+
