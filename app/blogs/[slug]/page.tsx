@@ -8,8 +8,10 @@ import ClinicalAndSafetyBenefitsBlog from "@/components/static-blogs/blogs/clini
 import ProfessionalPhysicalTherapyComplexInjuryCasesBlog from "@/components/static-blogs/blogs/the-difference-professional-physical-therapy-makes-in-complex-injury-cases";
 import EffectiveTreatmentPlanInjuryPatientsBlog from "@/components/static-blogs/blogs/What Goes Into Creating an Effective Treatment Plan for Injury Patients";
 import BestSleepingPositionsNeckBackPainBlog from "@/components/static-blogs/blogs/best-sleeping-positions-neck-back-pain";
+import SignsYourSpineMayBeOutOfAlignmentBlog from "@/components/static-blogs/blogs/signs-your-spine-may-be-out-of-alignment";
 import {
   bestSleepingPositionsNeckBackPainBlog,
+  signsYourSpineMayBeOutOfAlignmentBlog,
   clinicalSafetyBlog,
   professionalPhysicalTherapyComplexInjuryCasesBlog,
   effectiveTreatmentPlanInjuryPatientsBlog,
@@ -161,6 +163,14 @@ const page = async ({ params }: { params: { slug: string } }) => {
   if (params.slug === bestSleepingPositionsNeckBackPainBlog.slug) {
     return (
       <BestSleepingPositionsNeckBackPainBlog
+        blogPostData={blogPostData}
+      />
+    );
+  }
+
+  if (params.slug === signsYourSpineMayBeOutOfAlignmentBlog.slug) {
+    return (
+      <SignsYourSpineMayBeOutOfAlignmentBlog
         blogPostData={blogPostData}
       />
     );

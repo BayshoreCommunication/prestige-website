@@ -117,11 +117,37 @@ export const bestSleepingPositionsNeckBackPainBlog: StaticBlog = {
     "https://www.prestigemedpt.com/blogs/best-sleeping-positions-neck-back-pain",
 };
 
+export const signsYourSpineMayBeOutOfAlignmentBlog: StaticBlog = {
+  slug: "signs-your-spine-may-be-out-of-alignment",
+  title: "Signs Your Spine May Be Out of Alignment",
+  cardTitle: "Signs Your Spine May Be Out of Alignment",
+  imageTitle: "Warning Signs Your Spine May Be Out of Alignment Guide",
+  description:
+    "Identify key signs of spinal misalignment including poor posture, back stiffness, and persistent pain to seek timely physical therapy.",
+  shortDescription:
+    "Learn how to spot the common signs of spinal misalignment and when to consult a physical therapist for relief.",
+  caption:
+    "Learn how to spot the common signs of spinal misalignment and when to consult a physical therapist for relief.",
+  image:
+    "/images/static-blogs/signs-your-spine-may-be-out-of-alignment-guide.webp",
+  alt: "Physical therapist examining a male patient's illuminated spine for signs of spinal misalignment in a clinic.",
+  category: "Spine Health",
+  published: true,
+  createdAt: "2026-09-08",
+  metaTitle: "9 Clear Signs Your Spine Is Misaligned in Tampa",
+  metaDescription:
+    "Headaches, unbalanced shoulders and numbness mean your spine is completely out of alignment. Check sign number 6 before your posture causes permanent damage.",
+  canonical:
+    "https://www.prestigemedpt.com/blogs/signs-your-spine-may-be-out-of-alignment",
+};
+
 export const staticBlogs: StaticBlog[] = [
   bestSleepingPositionsNeckBackPainBlog,
+  signsYourSpineMayBeOutOfAlignmentBlog,
   professionalPhysicalTherapyComplexInjuryCasesBlog,
   clinicalSafetyBlog,
   effectiveTreatmentPlanInjuryPatientsBlog,
 ];
+
 
 
